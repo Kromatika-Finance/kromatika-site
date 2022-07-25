@@ -17,9 +17,6 @@ const nextConfig = {
     minimumCacheTTL: 60,
     loader: "akamai",
     path: "",
-    compilerOptions: {
-      baseUrl: "src",
-    },
   },
 };
 
