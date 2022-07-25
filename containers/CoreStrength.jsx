@@ -86,8 +86,8 @@ const CoreStrength = () => {
           </li>
         </ul>
         <p>
-          Combined, you get <strong>more value for every trade</strong> you make
-          thanks to Kromatika’s dApp!
+          Combined, <strong>Kromatika’s dApp provides you more </strong>, if not
+          the best value for every trade you make !
         </p>
         <p>
           And if that isn’t enough, we took care of slippage, front running bots

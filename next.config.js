@@ -5,7 +5,7 @@ const path = require('path');
 const nextConfig = {
 	reactStrictMode: true,
 	optimizeFonts: true,
-	assetPrefix: '.',
+	assetPrefix: './',
 	sassOptions: {
 		includePaths: [path.join(__dirname, 'styles')],
 	},
