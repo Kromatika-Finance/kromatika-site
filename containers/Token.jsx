@@ -51,7 +51,7 @@ const Token = () => {
 						$KROM is the token that pays the service fee to unlock the limit
 						order feature of Kromatika Finance Dapp. This means that by using
 						KROM tokens, you not only get access to cost efficient limit
-						orders on the DEX, but you will also earn extra fees on every trade
+						orders on the DEX, but you will also get LP fees on every trade
 						thanks to the innovative approach to providing liquidity.
 						<br />
 						<br />
