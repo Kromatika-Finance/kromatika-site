@@ -4,7 +4,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section id="section-hero" className="hero">
-      <h1 className="hero__title">The complete MetaDex Aggregator</h1>
+      <h1 className="hero__title">Kromatika DEX</h1>
       <p className="hero__subtitle">
         Makes DEX trading simple, accessible, and affordable on Ethereum L1 and
         L2’s.
