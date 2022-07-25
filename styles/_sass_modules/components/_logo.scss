@@ -1,0 +1,26 @@
+.logo {
+	@include flex-container(row, space-between, center, 1rem);
+	padding-right: 2.625rem;
+	cursor: pointer;
+	text-decoration: none;
+
+	&__img {
+		width: 53px;
+		height: 53px;
+	}
+
+	&__text {
+		@include flex-container(column, space-between, flex-start);
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		font-weight: 600;
+		font-style: normal;
+		line-height: 20px;
+		color: #f3f3f3;
+
+		@include for-phone-only {
+			font-size: 14px;
+			line-height: 18px;
+		}
+	}
+}

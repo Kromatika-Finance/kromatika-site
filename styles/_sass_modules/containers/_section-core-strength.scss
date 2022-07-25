@@ -1,0 +1,135 @@
+.section-core-strength {
+  .cards-wrapper {
+    @include grid-container();
+    align-items: start;
+    grid-column-gap: 47px;
+    grid-row-gap: 47px;
+    justify-items: center;
+
+    @include for-tablet-landscape-up {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      @include flex-container(column, center, center);
+      width: 100%;
+      max-width: 460px;
+      height: 100%;
+      border-radius: 22px;
+
+      &__header {
+        position: relative;
+        overflow: hidden;
+        width: 100%; 
+        height: 211px;
+        background: linear-gradient(212deg, #FCEABB 11.32%, #F8B500 107.05%);
+
+        figure {
+          position: absolute;
+          top: -20px;
+          left: -40px;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &__body {
+        @include flex-container(column, flex-start, flex-start, 1rem);
+        flex: 1;
+        width: 100%;
+        padding: 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 0 0 22px 22px;
+        background: rgba(26, 26, 26, 0.56);
+        background-blend-mode: soft-light;
+        backdrop-filter: blur(16px);
+      }
+
+      &__title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 30px;
+        color: #FFFFFF;
+      }
+
+      &__content {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 21px;
+        text-align: justify;
+        color: #FFFFFF;
+        text-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+      }
+
+      a {
+        text-decoration: underline;
+        color: #8235E5;
+      }
+
+      &:nth-of-type(1) .card__header {
+        background: $gradient_7;
+      }
+
+      &:nth-of-type(2) .card__header {
+        background: $gradient_8;
+      }
+
+      &:nth-of-type(3) .card__header {
+        background: $gradient_9;
+      }
+
+      @include for-phone-only {
+        &__header {
+          height: 70px;
+
+          figure {
+            top: -10px;
+            left: -10px;
+            width: 161px;
+            height: 133px;
+          }
+        }
+
+        &__title {
+          font-size: 18px;
+          line-height: 21px;
+        }
+
+        &__content {
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+
+      @include for-tablet-landscape-up {
+        &__title {
+          font-size: 18px;
+          line-height: 21px;
+        }
+
+        &__content {
+          font-size: 16px;
+          line-height: 18px;
+        }
+      }
+
+      @include for-desktop-up {
+        &__title {
+          font-size: 25px;
+          line-height: 30px;
+        }
+
+        &__content {
+          font-size: 17px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+}

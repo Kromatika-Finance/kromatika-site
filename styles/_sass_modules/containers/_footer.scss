@@ -1,0 +1,133 @@
+.footer {
+  &-wide-screen {
+    @include flex-container(column, center, center, 1.65625rem, wrap);
+    display: none;
+    overflow: hidden;
+    padding: 7.75rem 10vw;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    @include for-desktop-up {
+      display: flex;
+    }
+
+    .logo {
+      padding-right: 0;
+    }
+  }
+
+  &-mobile-screen {
+    @include flex-container(column, center, center, 3rem, wrap);
+    overflow: hidden;
+    padding: 6rem 10vw;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    @include for-desktop-up {
+      display: none;
+    }
+
+    .navbar__nav {
+      display: block;
+    }
+
+    .navbar__list {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 0;
+      gap: 1rem;
+    }
+
+    .logo {
+      margin-bottom: 0;
+      padding-right: 0;
+    }
+
+    .socials {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .copyright {
+      h3 {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+      h3,
+      p {
+        margin-bottom: 0.5rem;
+      }
+
+      a {
+        text-decoration: underline;
+        color: #8235e5;
+      }
+    }
+  }
+
+  .links {
+    @include flex-container(row, center, center, 6rem);
+    width: 100%;
+
+    .navbar__nav {
+      @include flex-container(row, space-between, center);
+      flex: 1;
+      justify-content: center;
+    }
+
+    .navbar__nav:nth-of-type(1) {
+      justify-content: flex-end;
+    }
+
+    .navbar__nav:nth-of-type(2) {
+      justify-content: flex-start;
+    }
+
+    .navbar__list {
+      margin: 0;
+    }
+
+    .socials {
+      flex: 0;
+      padding: 0;
+
+      & svg {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  .copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+
+    & h3 {
+      font-weight: bold;
+    }
+
+    h3,
+    p {
+      margin-bottom: 0.5rem;
+    }
+
+    a:link {
+      text-decoration: underline;
+    }
+
+    a:active,
+    a:hover {
+      color: #8235e5;
+    }
+  }
+}

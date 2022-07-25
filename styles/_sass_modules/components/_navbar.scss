@@ -1,0 +1,54 @@
+.navbar {
+	@include flex-container(row, flex-start, center);
+
+	&__nav {
+		display: none;
+		@include for-desktop-up {
+			@include flex-container(row, space-between, center);
+		}
+	}
+
+	&__list {
+		@include flex-container(row, space-between, center, 2rem);
+		margin-left: 3.75rem;
+		list-style: none;
+	}
+
+	&__item > a {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		font-weight: 400;
+		font-style: normal;
+		line-height: 24px;
+		cursor: pointer;
+		white-space: nowrap;
+		color: #f3f3f3;
+
+		&.active {
+			font-weight: 700;
+		}
+
+		&:hover {
+			text-shadow: 1px 1px 16px #fff;
+		}
+
+		@include for-phone-only {
+			font-size: 14px;
+			line-height: 18px;
+
+			&.active {
+				font-size: 14px;
+				font-weight: 700;
+				font-style: normal;
+				line-height: 18px;
+			}
+		}
+	}
+
+	.divider {
+		display: none;
+		@include for-desktop-up {
+			display: block;
+		}
+	}
+}

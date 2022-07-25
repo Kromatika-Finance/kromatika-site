@@ -1,0 +1,30 @@
+.floating-bar {
+  display: none;
+  //animation-duration: 3s;
+  //animation-timing-function: linear;
+  //animation-iteration-count: 2;
+
+  @include for-tablet-landscape-up {
+    @include flex-container(row, space-between, center, 1rem);
+    z-index: 1;
+    height: 70px;
+    padding: 0 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    background: rgba(26, 26, 26, 0.56);
+
+    &__icon {
+      width: 32px;
+      height: 32px;
+      fill: #9148ed;
+    }
+
+    &__text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      font-style: normal;
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "kromatika-finance",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^6.3.11",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-animated-css": "^1.2.1",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "react-scroll": "^1.8.7"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "sass": "^1.52.2"
+  }
+}

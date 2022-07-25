@@ -1,0 +1,18 @@
+.status-bar-wrapper {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  overflow: hidden;
+  width: 120px;
+  height: 8px;
+  border-radius: 100px;
+  background: #383838;
+}
+
+.status-bar {
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(180deg, #7024D0 102.86%, #640AD7 202.86%);
+  box-shadow: 0 0 4px #7000ff;
+}
+ 

@@ -1,0 +1,35 @@
+.brands-wrapper {
+  @include flex-container(row, center, center, 0, wrap);
+
+  .brands {
+    min-width: 35%;
+  }
+}
+
+.brands {
+  @include flex-container(column, center, center, 4rem, wrap);
+  margin-bottom: 2.5rem;
+
+  &__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 85px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    @include for-phone-only {
+      font-size: 22px;
+      line-height: 48px; 
+    }
+  }
+
+  &__links {
+    width: 100%;
+    @include flex-container(row, center, center, 1.5rem, wrap);
+    @include for-phone-only {
+      gap: 1rem;
+    }
+  }
+}

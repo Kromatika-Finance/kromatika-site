@@ -1,0 +1,219 @@
+#section-token {
+	.token {
+		margin-bottom: 7.5rem;
+		@include flex-container(column, stretch, center, 2.5rem);
+
+		@include for-tablet-landscape-up {
+			align-items: flex-start;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		.btn {
+			width: 185px;
+		}
+
+		.motion-div,
+		&__figure {
+			width: 100%;
+			max-width: 460px;
+			@include flex-container(row, center, center);
+		}
+
+		&__img {
+			width: 100%;
+			padding: 4rem;
+			border-radius: 22px 22px 0 0;
+		}
+
+		&__content {
+			width: 100%;
+			@include flex-container(column, center, center, 0, wrap);
+			@include for-tablet-landscape-up {
+				align-items: flex-start;
+			}
+
+			ul {
+				margin-bottom: 2rem;
+			}
+
+			li {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				margin-bottom: 12px;
+				gap: 12px;
+
+				p {
+					margin-bottom: 0;
+				}
+			}
+
+			h3 {
+				font-family: 'Montserrat', sans-serif;
+				font-size: 40px;
+				font-weight: 600;
+				font-style: normal;
+				line-height: 49px;
+				margin-bottom: 2rem;
+				color: #ffffff;
+			}
+
+			p {
+				font-family: 'Montserrat', sans-serif;
+				font-size: 18px;
+				font-weight: 400;
+				font-style: normal;
+				line-height: 24px;
+				margin-bottom: 1rem;
+				text-align: justify;
+				color: #ffffff;
+				text-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+
+				a {
+					text-decoration: underline;
+					color: #8235e5;
+				}
+			}
+		}
+
+		@include for-phone-only {
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+
+			&__content {
+				h3 {
+					font-size: 23px;
+					line-height: 28px;
+				}
+
+				p {
+					font-size: 14px;
+					line-height: 18px;
+					margin-bottom: 40px;
+				}
+			}
+		}
+	}
+
+	.cards-wrapper {
+		align-items: center;
+		@include grid-container();
+		margin-bottom: 8rem;
+		grid-column-gap: 47px;
+		grid-row-gap: 47px;
+		justify-items: center;
+
+		div:nth-child(1) .card {
+			background: $gradient_1;
+		}
+
+		div:nth-child(2) .card {
+			background: $gradient_2;
+		}
+
+		div:nth-child(3) .card {
+			background: $gradient_3;
+		}
+
+		@include for-tablet-landscape-up {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+
+		.card {
+			@include flex-container(column, flex-start, flex-start);
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			max-width: 460px;
+			height: 100%;
+			min-height: 600px;
+			border-radius: 22px;
+
+			figure {
+				@include flex-container(row, center, center);
+				width: 100%;
+				height: 310px;
+			}
+
+			&__overlay {
+				@include flex-container(column, flex-start, flex-start, 1rem);
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				flex: 1;
+				min-height: 282px;
+				padding: 2rem;
+				border: 1px solid rgba(255, 255, 255, 0.15);
+				border-radius: 22px;
+				background: rgba(0, 0, 0, 0.15);
+				backdrop-filter: blur(16px);
+				background-blend-mode: soft-light;
+			}
+
+			&__title {
+				font-family: 'Montserrat', sans-serif;
+				font-size: 25px;
+				font-weight: 600;
+				font-style: normal;
+				line-height: 30px;
+				color: #ffffff;
+			}
+
+			&__content {
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 400;
+				font-style: normal;
+				line-height: 21px;
+				text-align: justify;
+				color: #ffffff;
+				text-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+
+				p {
+					margin-bottom: 1rem;
+				}
+			}
+
+			@include for-phone-only {
+				figure {
+					min-height: 300px;
+				}
+
+				&__overlay {
+					padding: 2rem;
+					backdrop-filter: blur(1px);
+				}
+
+				&__title {
+					font-size: 18px;
+					line-height: 21px;
+				}
+
+				&__content {
+					font-size: 14px;
+					line-height: 18px;
+				}
+			}
+
+			@include for-tablet-landscape-up {
+				&__title {
+					font-size: 18px;
+					line-height: 21px;
+				}
+
+				&__content {
+					font-size: 15px;
+					line-height: 18px;
+				}
+			}
+
+			@include for-desktop-up {
+				&__title {
+					font-size: 25px;
+					line-height: 30px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+// COLORS
+$color_blue: #007ced;
+
+// BACKGROUND COLORS
+$color_bg_primary: #141517;
+$color_bg_secondary: #1c1c1c;
+
+// TEXT COLORS
+$color_text_primary: #ffffff;
+$color_text_secondary: #070707;
+
+// COLOR GRADIENTS
+// section token
+$gradient_1: linear-gradient(212deg, #dfd2ff -44.62%, #512da8 51.11%);
+$gradient_2: linear-gradient(212deg, #ffd194 1.47%, #d1913c 97.19%);
+$gradient_3: linear-gradient(212deg, #ffc371 1.46%, #ff5f6d 97.19%);
+// section fundamentals
+$gradient_4: linear-gradient(180deg, #640ad7 0%, #9148ed 100%);
+$gradient_5: linear-gradient(180deg, #00c9ff -29.22%, #92fe9d 70.78%);
+$gradient_6: linear-gradient(180deg, #f46b45 0%, #eea849 100%);
+// section token
+$gradient_7: linear-gradient(212deg, #fceabb 1.46%, #f8b500 97.19%);
+$gradient_8: linear-gradient(212deg, #ffc3a0 10.28%, #ff8399 106.02%);
+$gradient_9: linear-gradient(212deg, #ff6a00 1.46%, #ee0979 97.19%);
+
+// TRANSITIONS
+$transition: all 0.3s ease-in-out;

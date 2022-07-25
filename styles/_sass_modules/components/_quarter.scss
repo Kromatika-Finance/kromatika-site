@@ -1,0 +1,67 @@
+.quarter {
+  @include flex-container(column, space-between, flex-start, 2rem);
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(50px);
+  background-blend-mode: soft-light;
+
+  &__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 18px;
+    color: #ffffff;
+  }
+
+  &__list {
+    list-style-type: none;
+  } 
+
+  &__item {
+    @include flex-container(row, flex-start, center, 8px);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18px;
+    margin-bottom: 1rem;
+    text-align: left;
+    color: #ffffff;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+
+    span {
+      @include flex-container(row, center, center);
+    }
+
+    .goal-done,
+    .goal-pending {
+      width: 24px;
+      height: 24px;
+    }
+
+    .goal-done {
+      fill: #7024D0;
+    }
+
+    .goal-pending {
+      fill: rgba(112, 36, 208, 0.2);
+    }
+  }
+
+  @include for-tablet-portrait-up {
+    width: 80%;
+
+    &__title {
+      font-size: 25px;
+      line-height: 30px;
+    }
+
+    &__item {
+      font-size: 17px;
+      line-height: 21px;
+    }
+  }
+}

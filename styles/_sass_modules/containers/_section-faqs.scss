@@ -1,0 +1,20 @@
+.container {
+  @include grid-container();
+  align-items: start;
+  justify-items: center;
+
+  @include for-desktop-up {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .faqs {
+    @include flex-container(column, center, flex-start, 1rem, wrap);
+    flex: 1;
+
+    a {
+      text-decoration: underline;
+      color: #8235E5;;
+    }
+  }
+}
+ 

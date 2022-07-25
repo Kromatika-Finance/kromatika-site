@@ -1,0 +1,46 @@
+.btn {
+  @include flex-container(row, center, center);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 18px;
+  min-width: fit-content;
+  height: 40px;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  text-align: center;
+  color: #eae9f3;
+  border-radius: 12px;
+  box-shadow: 0 0 4px #7000ff;
+
+  &-outline {
+    border: 1px solid #8235E5;
+    background: transparent;
+  }
+
+  &-solid {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(180deg, #7024D0 0%, #640AD7 100%);
+  }
+
+  &-block {
+    width: -webkit-fill-available;
+  }
+
+  &-group {
+    @include flex-container(row, center, center, 1rem);
+  }
+
+  @include for-phone-only {
+    &-group {
+      flex-wrap: wrap;
+    }
+  }
+
+  @include for-desktop-up {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 2rem;
+  }
+}

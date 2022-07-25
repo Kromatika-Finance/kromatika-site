@@ -1,0 +1,257 @@
+
+.background-eclipses {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+
+  .eclipse {
+    position: absolute;
+  }
+
+  .eclipse:nth-of-type(1) {
+    top: 80px;
+    right: -30px;
+    width: 131px;
+    height: 131px;
+    @include for-medium-desktop-up {
+      top: -24px;
+      right: -65px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(2) {
+    top: 200px;
+    left: 50%;
+    width: 96px;
+    height: 96px;
+    @include for-medium-desktop-up {
+      top: 161px;
+      left: 735px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(3) {
+    top: 81px;
+    left: -83px;
+    width: 186px;
+    height: 185px;
+    @include for-medium-desktop-up {
+      top: 172px;
+      left: 5px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(4) {
+    top: 554px;
+    left: 0;
+    width: 73px;
+    height: 73px;
+    @include for-medium-desktop-up {
+      top: 741px;
+      left: 351px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(5) {
+    top: 520px;
+    right: -68px;
+    width: 213px;
+    height: 215px;
+    @include for-medium-desktop-up {
+      top: 793px;
+      right: 15%;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(6) {
+    top: 990px;
+    right: -170px;
+    width: 233px;
+    height: 232px;
+    @include for-medium-desktop-up {
+      top: 1170px;
+      right: -103px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(7) {
+    top: 1380px;
+    left: -170px;
+    width: 233px;
+    height: 232px;
+    @include for-medium-desktop-up {
+      top: 1685px;
+      left: -150px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(8) {
+    top: 1770px;
+    right: -172px;
+    width: 284px;
+    height: 284px;
+    @include for-medium-desktop-up {
+      top: 2064px;
+      right: -148px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(9) {
+    top: 1950px;
+    left: -212px;
+    width: 256px;
+    height: 255px;
+    @include for-medium-desktop-up {
+      top: 3161px;
+      left: -276px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(10) {
+    top: 2750px;
+    right: 39px;
+    width: 114px;
+    height: 114px;
+    @include for-medium-desktop-up {
+      top: 4190px;
+      right: -421px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(11) {
+    top: 3350px;
+    left: -97px;
+    width: 255px;
+    height: 256px;
+    @include for-medium-desktop-up {
+      top: 4292px;
+      left: -25px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(12) {
+    top: 4680px;
+    left: 14px;
+    width: 113px;
+    height: 114px;
+    @include for-medium-desktop-up {
+      top: 5392px;
+      left: -346px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(13) {
+    top: 5400px;
+    right: -117px;
+    width: 256px;
+    height: 255px;
+    @include for-medium-desktop-up {
+      top: 5501px;
+      right: -76px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(14) {
+    top: 6740px;
+    left: -113px;
+    width: 255px;
+    height: 255px;
+    @include for-medium-desktop-up {
+      top: 6180px;
+      left: 406px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(15) {
+    top: 7000px;
+    right: -74px;
+    width: 114px;
+    height: 114px;
+    @include for-medium-desktop-up {
+      top: 7146px;
+      right: -230px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(16) {
+    top: 7710px;
+    left: -22px;
+    width: 114px;
+    height: 114px;
+    @include for-medium-desktop-up {
+      top: 7578px;
+      left: -79px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(17) {
+    top: 9180px;
+    right: -153px;
+    width: 255px;
+    height: 255px;
+    @include for-medium-desktop-up {
+      top: 8190px;
+      right: 149px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(18) {
+    top: 10350px;
+    left: -57px;
+    width: 255px;
+    height: 255px;
+    @include for-medium-desktop-up {
+      top: 8601px;
+      left: -426px;
+      width: initial;
+      height: initial;
+    }
+  }
+
+  .eclipse:nth-of-type(19) {
+    top: 11220px;
+    right: 0;
+    width: 114px;
+    height: 114px;
+    @include for-medium-desktop-up {
+      top: 9030px;
+      right: 123px;
+      width: initial;
+      height: initial;
+    }
+  }
+}
