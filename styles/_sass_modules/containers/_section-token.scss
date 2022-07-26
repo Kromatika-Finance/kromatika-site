@@ -105,18 +105,6 @@
 		grid-row-gap: 47px;
 		justify-items: center;
 
-		div:nth-child(1) .card {
-			background: $gradient_1;
-		}
-
-		div:nth-child(2) .card {
-			background: $gradient_2;
-		}
-
-		div:nth-child(3) .card {
-			background: $gradient_3;
-		}
-
 		@include for-tablet-landscape-up {
 			grid-template-columns: repeat(3, minmax(0, 1fr));
 		}
@@ -173,6 +161,18 @@
 				p {
 					margin-bottom: 1rem;
 				}
+			}
+
+			&:nth-of-type(1) {
+				background: $gradient_1;
+			}
+
+			&:nth-of-type(2) {
+				background: $gradient_2;
+			}
+
+			&:nth-of-type(3) {
+				background: $gradient_3;
 			}
 
 			@include for-phone-only {
