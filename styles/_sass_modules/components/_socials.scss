@@ -1,44 +1,56 @@
 .socials {
-	@include flex-container(row, space-between, center, 2.875rem);
-	padding: 2rem;
+  @include flex-container(row, space-between, center, 2.875rem);
+  padding: 2rem;
 
-	&.slider {
-		display: none;
+  &.slider {
+    display: none;
 
-		@include for-desktop-up {
-			position: fixed;
-			z-index: 3;
-			right: 4.375rem;
-			bottom: 0;
-			display: flex;
-			flex-direction: column;
-			margin-bottom: -200px;
-			transition: $transition;
-			border: 1px solid rgba(255, 255, 255, 0.06);
-			border-radius: 16px;
-			background: rgba(26, 26, 26, 0.56);
-			backdrop-filter: blur(74px);
-		}
-	}
+    @include for-desktop-up {
+      position: fixed;
+      z-index: 3;
+      right: 4.375rem;
+      bottom: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: -200px;
+      -webkit-transition: $transition;
+      -o-transition: $transition;
+      transition: $transition;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 16px;
+      background: rgba(26, 26, 26, 0.56);
+      -webkit-backdrop-filter: blur(74px);
+      backdrop-filter: blur(74px);
+    }
+  }
 
-	figure,
-	svg {
-		width: 37px;
-		height: 37px;
-		cursor: pointer;
-		fill: #ffffff;
-	}
+  figure,
+  svg {
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+    fill: #ffffff;
+  }
 
-	&:hover {
-		margin-bottom: 0;
-	}
+  &:hover {
+    margin-bottom: 0;
+  }
 
-	a,
-	a:hover {
-		transition: $transition;
-	}
+  a,
+  a:hover {
+    -webkit-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+  }
 
-	a:hover {
-		transform: scale(1.2);
-	}
+  a:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 }

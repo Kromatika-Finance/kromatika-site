@@ -32,7 +32,7 @@ const Navbar = () => {
 	const [open, setOpen] = useState(false);
 
 	return (
-		<header className='padding-x' style={{ height: '107px' }}>
+		<header className='padding-x' style={{ height: '107px', width: '100%' }}>
 			<div className='navbar'>
 				<Logo path='/' />
 				<Divider type='vertical' h='64.5px' />

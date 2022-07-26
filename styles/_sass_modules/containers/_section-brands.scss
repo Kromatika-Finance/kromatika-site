@@ -11,7 +11,7 @@
   margin-bottom: 2.5rem;
 
   &__title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 600;
     font-style: normal;
@@ -21,7 +21,7 @@
     color: #ffffff;
     @include for-phone-only {
       font-size: 22px;
-      line-height: 48px; 
+      line-height: 48px;
     }
   }
 

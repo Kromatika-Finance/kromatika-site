@@ -1,6 +1,9 @@
 .section-core-strength {
   .cards-wrapper {
     @include grid-container();
+
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: start;
     grid-column-gap: 47px;
     grid-row-gap: 47px;
@@ -22,9 +25,10 @@
       &__header {
         position: relative;
         overflow: hidden;
-        width: 100%; 
+        width: 100%;
         height: 211px;
-        background: linear-gradient(212deg, #FCEABB 11.32%, #F8B500 107.05%);
+        background: -o-linear-gradient(238deg, #fceabb 11.32%, #f8b500 107.05%);
+        background: linear-gradient(212deg, #fceabb 11.32%, #f8b500 107.05%);
 
         figure {
           position: absolute;
@@ -37,6 +41,8 @@
 
       &__body {
         @include flex-container(column, flex-start, flex-start, 1rem);
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
         flex: 1;
         width: 100%;
         padding: 2rem;
@@ -44,32 +50,33 @@
         border-radius: 0 0 22px 22px;
         background: rgba(26, 26, 26, 0.56);
         background-blend-mode: soft-light;
+        -webkit-backdrop-filter: blur(16px);
         backdrop-filter: blur(16px);
       }
 
       &__title {
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 25px;
         font-weight: 600;
         font-style: normal;
         line-height: 30px;
-        color: #FFFFFF;
+        color: #ffffff;
       }
 
       &__content {
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 17px;
         font-weight: 400;
         font-style: normal;
         line-height: 21px;
         text-align: justify;
-        color: #FFFFFF;
+        color: #ffffff;
         text-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
       }
 
       a {
         text-decoration: underline;
-        color: #8235E5;
+        color: #8235e5;
       }
 
       &:nth-of-type(1) .card__header {
