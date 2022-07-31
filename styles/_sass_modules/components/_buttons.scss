@@ -1,10 +1,12 @@
 .btn {
   @include flex-container(row, center, center);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
   line-height: 18px;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
   min-width: fit-content;
   height: 40px;
   padding: 1.5rem 3rem;
@@ -12,16 +14,25 @@
   text-align: center;
   color: #eae9f3;
   border-radius: 12px;
+  -webkit-box-shadow: 0 0 4px #7000ff;
   box-shadow: 0 0 4px #7000ff;
 
   &-outline {
-    border: 1px solid #8235E5;
+    border: 1px solid #8235e5;
     background: transparent;
   }
 
   &-solid {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    background: linear-gradient(180deg, #7024D0 0%, #640AD7 100%);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#7024d0),
+      to(#640ad7)
+    );
+    background: -o-linear-gradient(top, #7024d0 0%, #640ad7 100%);
+    background: linear-gradient(180deg, #7024d0 0%, #640ad7 100%);
   }
 
   &-block {
@@ -34,6 +45,7 @@
 
   @include for-phone-only {
     &-group {
+      -ms-flex-wrap: wrap;
       flex-wrap: wrap;
     }
   }

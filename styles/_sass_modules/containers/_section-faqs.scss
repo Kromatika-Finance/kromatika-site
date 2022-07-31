@@ -1,5 +1,8 @@
 .container {
   @include grid-container();
+
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: start;
   justify-items: center;
 
@@ -9,12 +12,12 @@
 
   .faqs {
     @include flex-container(column, center, flex-start, 1rem, wrap);
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
-
     a {
       text-decoration: underline;
-      color: #8235E5;;
+      color: #8235e5;
     }
   }
 }
- 

@@ -63,11 +63,12 @@ const Token = () => {
 			</div>
 			{/* CARDS UNDER TOKEN SECTION */}
 			<div className='cards-wrapper'>
+
 				<motion.div
 					initial={{ opacity: 0 }}
 					whileInView={{ opacity: 1 }}
-					transition={{ duration: 1 }}>
-					<div className='card'>
+					transition={{ duration: 1 }}
+					className='card'>
 						<figure>
 							<Image src={circulatingSupply} alt='' />
 						</figure>
@@ -86,13 +87,13 @@ const Token = () => {
 						</p>
 					</span>
 						</div>
-					</div>
 				</motion.div>
-				<motion.div
+
+				<motion.div 
 					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }}
-					transition={{ duration: 1 }}>
-					<div className='card'>
+					whileInView={{ opacity: 1 }} 
+					transition={{ duration: 1 }} 
+					className='card'>
 						<figure>
 							<Image src={coinsStash} alt='' />
 						</figure>
@@ -106,13 +107,12 @@ const Token = () => {
 						</p>
 					</span>
 						</div>
-					</div>
-				</motion.div>
-				<motion.div
-					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }}
-					transition={{ duration: 1 }}>
-					<div className='card'>
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0 }}
+						whileInView={{ opacity: 1 }}
+						transition={{ duration: 1 }} 
+						className='card'>
 						<figure>
 							<Image src={goldLock} alt='' />
 						</figure>
@@ -134,8 +134,7 @@ const Token = () => {
 						</p>
 					</span>
 						</div>
-					</div>
-				</motion.div>
+					</motion.div>
 			</div>
 			{/* HOW TO BUY UNDER TOKEN SECTION */}
 			<div className='token'>

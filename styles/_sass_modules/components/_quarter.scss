@@ -4,11 +4,12 @@
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.01);
+  -webkit-backdrop-filter: blur(50px);
   backdrop-filter: blur(50px);
   background-blend-mode: soft-light;
 
   &__title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
@@ -18,11 +19,11 @@
 
   &__list {
     list-style-type: none;
-  } 
+  }
 
   &__item {
     @include flex-container(row, flex-start, center, 8px);
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
@@ -43,7 +44,7 @@
     }
 
     .goal-done {
-      fill: #7024D0;
+      fill: #7024d0;
     }
 
     .goal-pending {

@@ -7,7 +7,7 @@
   background: #0c0c0c;
 
   &:hover {
-    border: 1px solid #7024D0;
+    border: 1px solid #7024d0;
   }
 
   &__label {
@@ -17,11 +17,13 @@
     cursor: pointer;
 
     span {
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 22px;
       font-weight: 400;
       font-style: normal;
       line-height: 27px;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
       flex: 1;
       text-align: start;
       color: #ffffff;
@@ -32,6 +34,8 @@
   &__chevron {
     width: 26px;
     height: 26px;
+    -webkit-transition: $transition;
+    -o-transition: $transition;
     transition: $transition;
     fill: #ffffff;
   }
@@ -43,10 +47,12 @@
   &__content {
     overflow: hidden;
     max-height: 0;
+    -webkit-transition: $transition;
+    -o-transition: $transition;
     transition: $transition;
 
     p {
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 18px;
       font-weight: 400;
       font-style: normal;
@@ -59,18 +65,24 @@
 
     a {
       text-decoration: underline;
-      color: #8235E5;;
+      color: #8235e5;
     }
   }
 
   &__toggle:checked ~ .accordion__label ~ .accordion__content {
     max-height: 350px;
     padding: 2rem 0;
+    -webkit-transition: $transition;
+    -o-transition: $transition;
     transition: $transition;
   }
 
   &__toggle:checked ~ .accordion__label > .accordion__chevron {
+    -webkit-transition: $transition;
+    -o-transition: $transition;
     transition: $transition;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
   }
 
@@ -86,7 +98,6 @@
     }
 
     &__content {
-
       p {
         font-size: 14px;
         font-weight: 400;

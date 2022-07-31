@@ -1,43 +1,42 @@
 .section-title {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 32px;
-	font-weight: bold;
-	line-height: 45px;
-	margin-bottom: 6rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 45px;
+  margin-bottom: 6rem;
+  text-align: center;
+  color: #ffffff;
 
-	text-align: center;
-	color: #ffffff;
-
-	@include for-tablet-landscape-up {
-		font-size: 60px;
-		line-height: 85px;
-	}
+  @include for-tablet-landscape-up {
+    font-size: 60px;
+    line-height: 85px;
+  }
 }
 
 .subtitle {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 24px;
-	font-weight: 600;
-	font-style: normal;
-	line-height: 32px;
-	margin-bottom: 6rem;
-	text-align: center;
-	color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 32px;
+  margin-bottom: 6rem;
+  text-align: center;
+  color: #ffffff;
 
-	@include for-tablet-landscape-up {
-		font-size: 40px;
-		line-height: 49px;
-	}
+  @include for-tablet-landscape-up {
+    font-size: 40px;
+    line-height: 49px;
+  }
 }
 
 .text {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-	font-weight: 400;
-	font-style: normal;
-	line-height: 24px;
-	margin-bottom: 4rem;
-	text-align: justify;
-	color: rgba(255, 255, 255, 0.4);
-	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  margin-bottom: 4rem;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.4);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
 }

@@ -42,6 +42,9 @@
     font-weight: bold;
     line-height: 2rem;
     -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
     text-align: left;
   }
@@ -61,6 +64,9 @@
     color: rgb(215, 215, 215);
     font-size: 1rem;
     -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
     text-align: left;
     padding-bottom: 1rem;

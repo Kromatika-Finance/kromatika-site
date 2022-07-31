@@ -4,24 +4,24 @@
   height: 100vh;
 
   &__title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 50px;
     font-weight: bold;
     line-height: 49px;
     margin-bottom: 19px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   &__subtitle,
   &__content {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    line-height: 18px; 
+    line-height: 18px;
     margin-bottom: 31px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   &__subtitle {
@@ -51,8 +51,14 @@
     }
 
     li {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
       justify-content: flex-start;
       margin-bottom: 5px;
       gap: 12px;
@@ -83,7 +89,7 @@
       line-height: 24px;
       margin-bottom: 62px;
       text-align: center;
-      color: #FFFFFF;
+      color: #ffffff;
     }
 
     &__content {
