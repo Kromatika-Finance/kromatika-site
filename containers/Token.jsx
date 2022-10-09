@@ -77,15 +77,13 @@ const Token = () => {
 							<span className='card__title'>Circulating Supply</span>
 							<span className='card__content'>
 						<p>
-							Initially 60 million tokens were made available for trading on
-							Uniswap V3 mainnet. We deployed 10 million on Arbitrum and
+							Initially 60 million tokens were fair lauched on
+							Uniswap V3 mainnet. 10 million were fair launched on Arbitrum and
 							another 10 million on Optimism.
 						</p>
 						<p>
-							A buyback was performed at the end of Q1 2022, for a total value
-							of 2 million $KROM, with a market value of 30 $ETH at the time
-							of writing.
-						</p>
+							A buyback from the DAO treasury was performed at the end of Q1 2022, for a total value
+							of 2 million $KROM.
 					</span>
 						</div>
 				</motion.div>
@@ -105,6 +103,7 @@ const Token = () => {
 							12.000.000 $KROM have been locked on Unicrypt, or 12% of the
 							total supply, with an average vesting of 2 years and 3 months.
 							This vesting occurred in March 2022.
+							Half of the vested tokens are allocated to the DAO treasury.
 						</p>
 					</span>
 						</div>
@@ -121,7 +120,7 @@ const Token = () => {
 							<span className='card__title'>Increased security</span>
 							<span className='card__content'>
 						<p>
-							We burned the proof of liquidity (position), for better security
+							The proof of liquidity (position) was burnt, for better security
 							and in order to prevent rug pull hacks. You can consult the
 							transaction &nbsp;
 							<Link href='https://etherscan.io/tx/0x26c782eb49c42979c259dda936f28b77ae8dbeef16da3ec341d06cb437034ac4'>
@@ -131,7 +130,7 @@ const Token = () => {
 							</Link>
 						</p>
 						<p>
-							7 million $KROM tokens are held in a multisignature Gnosis Safe wallet.
+							7 million $KROM tokens are kept in the DAO treasury, managed by the Kromatika DAO.
 						</p>
 					</span>
 						</div>
