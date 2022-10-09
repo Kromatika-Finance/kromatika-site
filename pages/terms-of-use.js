@@ -265,9 +265,8 @@ export default function Home() {
                     or an entity, or your wallet address is listed on the Specially Designated Nationals and Blocked
                     Persons
                     List (“SDN List”), Consolidated Sanctions List (“Non-SDN Lists), or any other sanctions lists
-                    administered by OFAC; (f) you are located, organized, or resident in a country or territory that is,
-                    or
-                    whose government is, the subject of sanctions, including but not limited to Côte d’Ivoire, Cuba,
+                    administered by OFAC; (f) you are located, organized, or resident in a country or territory 
+                    including but not limited to Côte d’Ivoire, Cuba, the USA,
                     Belarus, Iran, Iraq, Liberia, North Korea, Sudan, and Syria; or (g) you have otherwise acted in
                     violation of these Terms. If we have a reasonable suspicion that you are utilizing the Site for
                     illegal
