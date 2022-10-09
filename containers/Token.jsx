@@ -37,7 +37,7 @@ const Token = () => {
 				<div className='token__content'>
 					<h3>What is $KROM?</h3>
 					<p>
-						$KROM is the utility token of the Kromatika Finance protocol. It is
+						$KROM is the utility and governance token of the Kromatika protocol. It is
 						a non-mintable ERC20 token deployed on Ethereum with a fixed total
 						supply of 100 million tokens. The tokenomic model of $KROM is
 						deflationary by design since the tokens are being &nbsp;
@@ -49,15 +49,16 @@ const Token = () => {
 						<br />
 						<br />
 						$KROM is the token that pays the service fee to unlock the limit
-						order feature of Kromatika Finance Dapp. This means that by using
+						order feature of Kromatika protocol. This means that by using
 						KROM tokens, you not only get access to cost efficient limit
 						orders on the DEX, but you will also get LP fees on every trade
 						thanks to the innovative approach to providing liquidity.
 						<br />
 						<br />
-						KROM tokens have more utilities planned including an option for
-						gasless swaps, staking, and many more. Such utilities will be
-						developed and added in the near future.
+						$KROM token is also used as a governance token within the Kromatika DAO.
+						<br />
+						Kromatika DAO has the possibility to add more utilities for the KROM token through 
+						governance proposals.
 					</p>
 				</div>
 			</div>
