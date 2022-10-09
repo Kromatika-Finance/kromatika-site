@@ -2,14 +2,11 @@ export default function Home() {
     return (
         <div className='terms-of-use'>
             <article>
-                <h1>1. Welcome to Kromatika.Finance</h1>
+                <h1>1. Welcome to Kromatika.Finance(“we,” “us,” or “our”)the informational resource for Kromatika Protocol, as defined below.</h1>
                 <p>Effective Date: July 8, 2022</p>
-                <p> Kromatika.Finance is brought to you by RadiantBlue Limited. (“RadiantBlue Limited”) and its
-                    affiliates (collectively, “we,” “us,” or “our”) committed to creating open-source software that
-                    empowers users&apos; financial, social and cultural independence. Kromatika.Finance provides information
-                    and resources about the fundamentals of the decentralized non-custodial liquidity protocol called
-                    the Kromatika Protocol (the “Kromatika Protocol” or “Protocol”). Kromatika.Finance is not one of the
-                    available access points to the Kromatika Protocol.
+                <p> Kromatika.Finance provides information and resources about the fundamentals of the decentralized 
+                    non-custodial liquidity protocol called the Kromatika Protocol (the “Kromatika Protocol” or “Protocol”). 
+                    Kromatika.Finance is not one of the available access points to the Kromatika Protocol.
                 </p>
                 <p> ARBITRATION NOTICE: THESE TERMS (“TERMS”) CONTAIN AN ARBITRATION CLAUSE BELOW. EXCEPT FOR CERTAIN
                     TYPES OF DISPUTES MENTIONED IN THAT ARBITRATION CLAUSE, YOU AND WE AGREE THAT ANY DISPUTES RELATING
@@ -228,7 +225,7 @@ export default function Home() {
                     challenges, among other things. We disclaim any ongoing obligation to notify you of all of the
                     potential
                     risks of using and accessing our Services. You agree to (defined below) accept these risks and agree
-                    that you will not seek to hold any RadiantBlue Limited Indemnified Party responsible for any
+                    that you will not seek to hold any Kromatika.Finance Party responsible for any
                     consequent
                     losses.
                 </p>
@@ -266,8 +263,8 @@ export default function Home() {
                     Persons
                     List (“SDN List”), Consolidated Sanctions List (“Non-SDN Lists), or any other sanctions lists
                     administered by OFAC; (f) you are located, organized, or resident in a country or territory 
-                    including but not limited to Côte d’Ivoire, Cuba, the USA,
-                    Belarus, Iran, Iraq, Liberia, North Korea, Sudan, and Syria; or (g) you have otherwise acted in
+                    including but not limited to <b>Côte d’Ivoire, Cuba, the USA,
+                    Belarus, Iran, Iraq, Liberia, North Korea, Sudan, and Syria</b>; or (g) you have otherwise acted in
                     violation of these Terms. If we have a reasonable suspicion that you are utilizing the Site for
                     illegal
                     purposes, we reserve the right to take whatever action we deem appropriate.
@@ -414,11 +411,11 @@ export default function Home() {
                     We make no representations or warranties. THE SERVICES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE”
                     BASIS. WE AND OUR PARENTS, SUBSIDIARIES, AFFILIATES, RELATED COMPANIES, OFFICERS, DIRECTORS,
                     EMPLOYEES,
-                    AGENTS, REPRESENTATIVES, PARTNERS, AND LICENSORS (COLLECTIVELY, THE “RadiantBlue Limited INDEMNIFIED
+                    AGENTS, REPRESENTATIVES, PARTNERS, AND LICENSORS (COLLECTIVELY, THE “Kromatika.Finance INDEMNIFIED
                     PARTIES”)
                     MAKE NO GUARANTEES OF ANY KIND IN CONNECTION WITH THE SERVICES. TO THE MAXIMUM EXTENT PERMITTED
                     UNDER
-                    APPLICABLE LAW, THE RadiantBlue Limited INDEMNIFIED PARTIES DISCLAIM ALL WARRANTIES AND CONDITIONS,
+                    APPLICABLE LAW, THE Kromatika.Finance INDEMNIFIED PARTIES DISCLAIM ALL WARRANTIES AND CONDITIONS,
                     WHETHER
                     EXPRESS OR IMPLIED, OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT AND
                     DISCLAIM ALL RESPONSIBILITY AND LIABILITY FOR:
@@ -439,7 +436,7 @@ export default function Home() {
                         THAT
                         MAY AFFECT YOUR PHYSICAL SENSES AND/OR PHYSICAL CONDITION. FURTHER, YOU EXPRESSLY ACKNOWLEDGE
                         THAT
-                        THE RadiantBlue Limited INDEMNIFIED PARTIES ARE NOT RESPONSIBLE FOR LOSS OR DAMAGE CAUSED BY
+                        THE Kromatika.Finance INDEMNIFIED PARTIES ARE NOT RESPONSIBLE FOR LOSS OR DAMAGE CAUSED BY
                         ANOTHER
                         USER’S CONDUCT, UNAUTHORIZED ACTORS, OR ANY UNAUTHORIZED ACCESS TO OR USE OF THE SERVICES.
                     </li>
@@ -450,8 +447,7 @@ export default function Home() {
                     </li>
                 </ul>
                 <p>
-                    Limitation of Liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL ANY RadiantBlue
-                    Limited
+                    Limitation of Liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL ANY Kromatika.Finance
                     INDEMNIFIED PARTY BE LIABLE TO YOU FOR ANY LOSS, DAMAGE, OR INJURY OF ANY KIND INCLUDING ANY DIRECT,
                     INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, CONSEQUENTIAL, OR PUNITIVE LOSSES OR DAMAGES, OR DAMAGES
                     FOR
@@ -465,7 +461,7 @@ export default function Home() {
                     TO ANY THE SERVICES.
                 </p>
                 <p>
-                    IN ADDITION TO THE FOREGOING, NO RadiantBlue Limited INDEMNIFIED PARTY SHALL BE LIABLE FOR ANY
+                    IN ADDITION TO THE FOREGOING, NO Kromatika.Finance INDEMNIFIED PARTY SHALL BE LIABLE FOR ANY
                     DAMAGES
                     CAUSED
                     IN WHOLE OR IN PART BY: (A) USER ERROR, SUCH AS FORGOTTEN PASSWORDS OR INCORRECTLY CONSTRUCTED SMART
@@ -486,18 +482,18 @@ export default function Home() {
                     CONTRACT,
                     INDEMNIFICATION, TORT, STRICT LIABILITY, STATUTE, OR ANY OTHER LEGAL OR EQUITABLE THEORY, AND
                     WHETHER OR
-                    NOT THE RadiantBlue Limited INDEMNIFIED PARTIES HAVE BEEN INFORMED OF THE POSSIBILITY OF ANY SUCH
+                    NOT THE Kromatika.Finance INDEMNIFIED PARTIES HAVE BEEN INFORMED OF THE POSSIBILITY OF ANY SUCH
                     DAMAGE.
                 </p>
                 <p>
-                    IN NO EVENT WILL THE RadiantBlue Limited INDEMNIFIED PARTIES’ CUMULATIVE LIABILITY TO YOU OR ANY
+                    IN NO EVENT WILL THE Kromatika.Finance INDEMNIFIED PARTIES’ CUMULATIVE LIABILITY TO YOU OR ANY
                     OTHER
                     USER,
                     FROM ALL CAUSES OF ACTION AND ALL THEORIES OF LIABILITY EXCEED ONE THOUSAND U.S. DOLLARS (U.S.
                     $1,000.00).
                 </p>
                 <p>
-                    UNDER NO CIRCUMSTANCES SHALL ANY RadiantBlue Limited INDEMNIFIED PARTY BE REQUIRED TO DELIVER TO YOU
+                    UNDER NO CIRCUMSTANCES SHALL ANY Kromatika.Finance INDEMNIFIED PARTY BE REQUIRED TO DELIVER TO YOU
                     ANY
                     VIRTUAL CURRENCY AS DAMAGES, MAKE SPECIFIC PERFORMANCE, OR ANY OTHER REMEDY. IF YOU WOULD BASE YOUR
                     CALCULATIONS OF DAMAGES IN ANY WAY ON THE VALUE OF VIRTUAL CURRENCY, YOU AND WE AGREE THAT THE
@@ -508,17 +504,17 @@ export default function Home() {
                     Some jurisdictions do not allow the exclusion or limitation of certain warranties and liabilities
                     provided in this section; accordingly, some of the above limitations and disclaimers may not apply
                     to
-                    you. To the extent applicable law does not permit RadiantBlue Limited Indemnified Parties to
+                    you. To the extent applicable law does not permit Kromatika.Finance Indemnified Parties to
                     disclaim
                     certain
-                    warranties or limit certain liabilities, the extent of RadiantBlue Limited Indemnified Parties’
+                    warranties or limit certain liabilities, the extent of Kromatika.Finance Indemnified Parties’
                     liability and
                     the scope of any such warranties will be as permitted under applicable law.
                 </p>
             </article>
             <article>
                 <h1>8. Indemnification</h1>
-                <p>You agree to indemnify, defend, and hold harmless the RadiantBlue Limited Indemnified Parties from
+                <p>You agree to indemnify, defend, and hold harmless the Kromatika.Finance Indemnified Parties from
                     any
                     claim or
                     demand, including reasonable attorneys’ fees, made by any third party due to or arising out of: (a)
@@ -616,7 +612,7 @@ export default function Home() {
                     OR OTHER EQUITABLE RELIEF OF ANY KIND, SUCH AS ANY COURT OR OTHER ACTION THAT MAY INTERFERE WITH OR
                     PREVENT THE DEVELOPMENT OR EXPLOITATION OF THE SERVICES, OR ANY OTHER WEBSITE, APPLICATION, CONTENT,
                     SUBMISSION, PRODUCT, SERVICE, OR INTELLECTUAL PROPERTY OWNED, LICENSED, USED OR CONTROLLED BY ANY
-                    RADIANTBLUE LIMITED
+                    Kromatika.Finance
                     INDEMNIFIED PARTY.
                 </p>
             </article>
@@ -664,7 +660,7 @@ export default function Home() {
                 <p>
                     The Agreement (including, without limitation, these Terms) may be assigned without your prior
                     consent to
-                    any RadiantBlue Limited Indemnified Party, or to its successors in the interest of any business
+                    any Kromatika.Finance Indemnified Party, or to its successors in the interest of any business
                     associated
                     with the Services provided by us. You may not assign or transfer any rights or obligations under the
                     Agreement without our prior written consent.
@@ -674,7 +670,7 @@ export default function Home() {
                 <h1>14. Entire Agreement</h1>
                 <p>
 
-                    The Agreement (including, without limitation, these Terms, and the RadiantBlue Limited Privacy
+                    The Agreement (including, without limitation, these Terms, and the Kromatika.Finance Privacy
                     Policy)
                     and any
                     policies or operating rules posted by us on the Services constitute the entire agreement and
