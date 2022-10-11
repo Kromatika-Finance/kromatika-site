@@ -5,5 +5,5 @@ export { default as Footer } from './Footer';
 export { default as Hero } from './Hero';
 export { default as HowItWorks } from './Fundamentals';
 export { default as Qualities } from './CoreStrength';
-export { default as Roadmap } from './Roadmap';
+export { default as BUIDLPlan } from './BUIDLPlan';
 export { default as Token } from './Token';

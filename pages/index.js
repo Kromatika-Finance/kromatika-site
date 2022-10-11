@@ -7,7 +7,7 @@ import {
 	Hero,
 	HowItWorks,
 	Qualities,
-	Roadmap,
+	BUIDLPlan,
 	Token,
 } from '../containers';
 
@@ -21,7 +21,7 @@ export default function Home() {
 				<Hero />
 				<Qualities />
 				<Token />
-				<Roadmap />
+				<BUIDLPlan />
 				<HowItWorks />
 				<FAQ />
 				<Brands />
