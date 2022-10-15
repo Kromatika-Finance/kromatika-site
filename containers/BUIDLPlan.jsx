@@ -88,7 +88,14 @@ const quarters = [
 				status: false,
 				goal: 'Gas refund program on Optimism.',
 			},
-			
+			{
+				status: false,
+				goal: 'Implement fiat on-ramp service.',
+			},
+			{
+				status: false,
+				goal: 'Implement cross-chain bridge solution.',
+			},
 		],
 	},
 ];
