@@ -66,7 +66,7 @@ const quarters = [
 		goals: [
 			{
 				status: true,
-				goal: 'Kromatika is DAO',
+				goal: 'Kromatika DAO governance launch',
 			},
 			{
 				status: false,
@@ -100,7 +100,7 @@ const BUIDLPlan = () => {
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 1 }}>
-				<h2 className='section-title'>BUIDL Plan</h2>
+				<h2 className='section-title' id='section-buidlplan'>BUIDL Plan</h2>
 			</motion.div>
 			<div className='roadmap container'>
 				{quarters.map((quarter, i) => (

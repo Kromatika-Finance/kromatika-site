@@ -683,13 +683,6 @@ export default function Home() {
                     constitute a waiver of such right or provision.
                 </p>
             </article>
-            <article>
-                <h1>15. Governing Law</h1>
-                <p>
-                    These Terms and any separate agreements whereby we provide you Services shall be governed by and
-                    construed in accordance with the laws of the Marshall Islands.
-                </p>
-            </article>
         </div>
     );
 }

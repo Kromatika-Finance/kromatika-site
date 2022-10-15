@@ -13,7 +13,7 @@ const menuItems = [
 	{ icon: '', label: 'FAQ', to: 'section-faq', isExternal: false },
 	{
 		icon: '',
-		label: 'News',
+		label: 'Blog',
 		to: 'https://blog.kromatika.finance/',
 		isExternal: true,
 	},
