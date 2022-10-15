@@ -8,12 +8,12 @@ import Socials from '../components/Socials';
 
 const menuItems = [
 	{ icon: '', label: 'Token', to: 'section-token', isExternal: false },
-	{ icon: '', label: 'Roadmap', to: 'section-roadmap', isExternal: false },
+	{ icon: '', label: 'BUIDL Plan', to: 'section-roadmap', isExternal: false },
 	{ icon: '', label: 'About', to: 'section-fundamentals', isExternal: false },
 	{ icon: '', label: 'FAQ', to: 'section-faq', isExternal: false },
 	{
 		icon: '',
-		label: 'News',
+		label: 'Blog',
 		to: 'https://blog.kromatika.finance/',
 		isExternal: true,
 	},

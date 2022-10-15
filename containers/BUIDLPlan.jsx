@@ -4,7 +4,7 @@ import { Divider, Quarter } from '../components';
 
 const quarters = [
 	{
-		title: 'Q1 2022',
+		title: '',
 		goals: [
 			{
 				status: true,
@@ -26,10 +26,14 @@ const quarters = [
 				status: true,
 				goal: 'Launching the Kromatika protocol on Arbitrum Layer2 network.',
 			},
+			{
+				status: true,
+				goal: 'Launching new kromatika.finance website.',
+			},
 		],
 	},
 	{
-		title: 'Q2 2022',
+		title: '',
 		goals: [
 			{
 				status: true,
@@ -58,36 +62,52 @@ const quarters = [
 		],
 	},
 	{
-		title: 'Q3 2022',
+		title: '',
 		goals: [
 			{
-				status: false,
-				goal: 'Native KROM staking / yield farming.',
+				status: true,
+				goal: 'Kromatika DAO governance launch',
 			},
 			{
 				status: false,
-				goal: 'Launching of a governance token.',
+				goal: 'Create KROM/OP liquidity pool.',
 			},
 			{
 				status: false,
-				goal: 'Distribution of governance token to Kromatika protocol users.',
+				goal: 'Liquidity mining program for KROM/OP.',
 			},
 			{
 				status: false,
-				goal: 'DAO',
+				goal: 'Launch perpetual trading.',
+			},
+			{
+				status: false,
+				goal: 'Launch referral program on Optimism.',
+			},
+			{
+				status: false,
+				goal: 'Gas refund program on Optimism.',
+			},
+			{
+				status: false,
+				goal: 'Implement fiat on-ramp service.',
+			},
+			{
+				status: false,
+				goal: 'Implement cross-chain bridge solution.',
 			},
 		],
 	},
 ];
 
-const Roadmap = () => {
+const BUIDLPlan = () => {
 	return (
 		<section id='section-roadmap' className='section-padding'>
 			<motion.div
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 1 }}>
-				<h2 className='section-title'>Roadmap</h2>
+				<h2 className='section-title' id='section-buidlplan'>BUIDL Plan</h2>
 			</motion.div>
 			<div className='roadmap container'>
 				{quarters.map((quarter, i) => (
@@ -102,4 +122,4 @@ const Roadmap = () => {
 	);
 };
 
-export default Roadmap;
+export default BUIDLPlan;

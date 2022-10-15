@@ -6,12 +6,12 @@ import { motion } from "framer-motion";
 
 const menuItems = [
   { icon: "", label: "Token", to: "section-token", isExternal: false },
-  { icon: "", label: "Roadmap", to: "section-roadmap", isExternal: false },
+  { icon: "", label: "BUIDL Plan", to: "section-roadmap", isExternal: false },
   { icon: "", label: "About", to: "section-fundamentals", isExternal: false },
   { icon: "", label: "FAQ", to: "section-faq", isExternal: false },
   {
     icon: "",
-    label: "News",
+    label: "Blog",
     to: "https://blog.kromatika.finance/",
     isExternal: true,
   },
@@ -144,12 +144,7 @@ const Footer = () => {
         <div className="copyright">
           <h3>Copyright &copy; {currentYear} All rights reserved.</h3>
           <p>
-            Kromatika.Finance is brought to you by{" "}
-            <Link href="https://ipfs.fleek.co/ipfs/QmVkBaizhwHoCEfhFRGFCepuFq6KnyP7LFxeVVKxPXaDLa?filename=CERTIFICATE%20OF%20INCORPORATION.pdf">
-              <a target="_blank" rel="noopener noreferrer">
-                <span>RadiantBlue Limited</span>
-              </a>
-            </Link>
+            Kromatika.Finance is brought to you by{" "}Kromatika DAO & Contributors
           </p>
           <a href="mailto: contact@kromatika.finance">
             contact@kromatika.finance
