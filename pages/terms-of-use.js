@@ -621,18 +621,8 @@ export default function Home() {
                     You and we agree that any Dispute that cannot be resolved through the procedures set forth above
                     will be
                     resolved through binding arbitration in accordance with the International Arbitration Rules of the
-                    International Centre for Dispute Resolution. The place of arbitration shall be the Marshall Islands.
-                    The
-                    language of the arbitration shall be English. The arbitrator(s) shall have experience adjudicating
-                    matters involving Internet technology, software applications, financial transactions and, ideally,
-                    blockchain technology. The arbitrator’s award of damages must be consistent with the terms of the
-                    “Limitation of Liability” subsection of these Terms as to the types and amounts of damages for which
-                    a
-                    party may be held liable. The prevailing party will be entitled to an award of their reasonable
-                    attorney’s fees and costs. Except as may be required by law, neither a party nor its representatives
-                    may
-                    disclose the existence, content, or results of any arbitration hereunder without the prior written
-                    consent of (all/both) parties.
+                    International Centre for Dispute Resolution. 
+                   
                 </p>
                 <p>
                     UNLESS YOU TIMELY PROVIDE US WITH AN ARBITRATION OPT-OUT NOTICE (AS DEFINED BELOW IN THE SUBSECTION
