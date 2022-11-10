@@ -8,7 +8,7 @@ import {
 
 const socialItems = [
 	{ href: 'https://discord.com/invite/5Yd7PrRx9y', icon: <FaDiscord /> },
-	{ href: 'https://t.me/joinchat/09jBPxB1cl85OTBk', icon: <FaTelegramPlane /> },
+	{ href: 'https://t.me/kromatika_finance', icon: <FaTelegramPlane /> },
 	{ href: 'https://twitter.com/KromatikaFi', icon: <FaTwitter /> },
 	{
 		href: 'https://www.instagram.com/kromatika.finance/',
