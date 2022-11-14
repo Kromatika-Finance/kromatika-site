@@ -26,7 +26,7 @@ const secondaryLinks = [
   },
   {
     label: "Terms Of Use",
-    to: "terms-of-use.html",
+    to: "terms-of-use",
   },
 ];
 
