@@ -1,4 +1,22 @@
 #section-fundamentals {
+
+  @media only screen and (max-width: 485px) {
+    margin-top: 150px;
+   }
+ 
+   @media only screen and (max-width: 375px) {
+     margin-top: 175px;
+    }
+ 
+   @media only screen and (max-width: 325px) {
+     margin-top: 230px;
+   }
+
+   @media only screen and (max-width: 280px) {
+    margin-top: 290px;
+  }
+ 
+
   .cards-wrapper {
     @include grid-container();
     -webkit-box-align: start;
@@ -132,4 +150,41 @@
       background: $gradient-6;
     }
   }
+}
+
+
+#section-buidlplan {
+ 
+
+  @media only screen and (min-width: 600px) {  
+    position:relative;
+    top: -170px;
+  }
+
+  @media only screen and (min-width: 470px) {  
+    position:relative;
+    top: -100px;
+  }
+
+  @media only screen and (max-width: 470px) {  
+    position:relative;
+    top: -70px;
+  }
+
+  @media only screen and (max-width: 370px) {
+    position:relative;
+    top: -120px;
+  }
+
+  @media only screen and (max-width: 340px) {
+    position:relative;
+    top: -200px;
+  }
+
+  @media only screen and (max-width: 315px) {
+    margin-bottom: 250px;
+    margin-top: 50px;
+  }
+
+  
 }
