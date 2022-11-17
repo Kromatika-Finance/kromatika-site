@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 
 const socialItems = [
-	{ href: 'https://discord.com/invite/5Yd7PrRx9y', icon: <FaDiscord /> },
+	{ href: 'https://discord.gg/U32meU7emP', icon: <FaDiscord /> },
 	{ href: 'https://t.me/kromatika_finance', icon: <FaTelegramPlane /> },
 	{ href: 'https://twitter.com/KromatikaFi', icon: <FaTwitter /> },
 	{
