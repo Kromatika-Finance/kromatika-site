@@ -153,38 +153,27 @@
 }
 
 
-#section-buidlplan {
- 
+#buidlplan-paragraph { 
+  color: white;
+  margin-bottom: 200px;
+  display: block;
+  justify-content: center;
+  font-size: 22px;
 
-  @media only screen and (min-width: 600px) {  
-    position:relative;
-    top: -170px;
-  }
 
-  @media only screen and (min-width: 470px) {  
-    position:relative;
-    top: -100px;
-  }
-
-  @media only screen and (max-width: 470px) {  
-    position:relative;
-    top: -70px;
+  @media only screen and (max-width: 750px) {
+    margin-bottom: 300px;
   }
 
   @media only screen and (max-width: 370px) {
-    position:relative;
-    top: -120px;
+    margin-bottom: 350px;
   }
 
   @media only screen and (max-width: 340px) {
-    position:relative;
-    top: -200px;
+    margin-bottom:  400px;
   }
 
   @media only screen and (max-width: 315px) {
-    margin-bottom: 250px;
-    margin-top: 50px;
+    margin-bottom: 450px;
   }
-
-  
 }

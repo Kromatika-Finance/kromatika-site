@@ -9,6 +9,7 @@ import chainlink from '../assets/svgs/chainlink.svg';
 import optimismHorizontal from '../assets/svgs/optimism.svg';
 import polygon from '../assets/svgs/polygon.svg';
 import uniswap from '../assets/svgs/uniswap.svg';
+import cmc from '../assets/svgs/cmc.svg'
 
 export const brands = {
 	uniswap,
@@ -22,4 +23,5 @@ export const brands = {
 	dextlogo,
 	ethereum,
 	vulkania,
+	cmc,
 };

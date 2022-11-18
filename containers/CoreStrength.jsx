@@ -80,8 +80,7 @@ const CoreStrength = () => {
               />
             </figure>
             <p>
-              <strong>additional LP fees</strong> on every trade. Up to 5% of
-              your order size.
+            <strong>Additional LP fees </strong> on your filled limit orders (FELO). Up to 9% depending on volatility of trading pair.
             </p>
           </li>
         </ul>
