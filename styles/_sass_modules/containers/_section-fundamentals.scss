@@ -1,4 +1,22 @@
 #section-fundamentals {
+
+  @media only screen and (max-width: 485px) {
+    margin-top: 150px;
+   }
+ 
+   @media only screen and (max-width: 375px) {
+     margin-top: 175px;
+    }
+ 
+   @media only screen and (max-width: 325px) {
+     margin-top: 230px;
+   }
+
+   @media only screen and (max-width: 280px) {
+    margin-top: 290px;
+  }
+ 
+
   .cards-wrapper {
     @include grid-container();
     -webkit-box-align: start;
@@ -131,5 +149,31 @@
     .card:nth-of-type(3) figure {
       background: $gradient-6;
     }
+  }
+}
+
+
+#buidlplan-paragraph { 
+  color: white;
+  margin-bottom: 200px;
+  display: block;
+  justify-content: center;
+  font-size: 22px;
+
+
+  @media only screen and (max-width: 750px) {
+    margin-bottom: 300px;
+  }
+
+  @media only screen and (max-width: 370px) {
+    margin-bottom: 350px;
+  }
+
+  @media only screen and (max-width: 340px) {
+    margin-bottom:  400px;
+  }
+
+  @media only screen and (max-width: 315px) {
+    margin-bottom: 450px;
   }
 }

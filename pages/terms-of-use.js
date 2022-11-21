@@ -3,7 +3,7 @@ export default function Home() {
         <div className='terms-of-use'>
             <article>
                 <h1>1. Welcome to Kromatika.Finance(“we,” “us,” or “our”)the informational resource for Kromatika Protocol, as defined below.</h1>
-                <p>Effective Date: July 8, 2022</p>
+                <p>Effective Date: November 6th, 2022</p>
                 <p> Kromatika.Finance provides information and resources about the fundamentals of the decentralized 
                     non-custodial liquidity protocol called the Kromatika Protocol (the “Kromatika Protocol” or “Protocol”). 
                     Kromatika.Finance is not one of the available access points to the Kromatika Protocol.
@@ -27,11 +27,66 @@ export default function Home() {
                     may not use the Services and should not visit the Site or otherwise engage with the Services.
                 </p>
 
-                <h2>Use of the Services</h2>
+                <h2>2. Use of the Services</h2>
                 <p> To use the Services, you must legally be able to enter into the Agreement. By using the Services,
                     you represent and warrant that you meet the eligibility requirement. If you do not meet the
                     requirement, you must not access or use the Site or the Services.
                 </p>
+                <p>
+                    As a condition to accessing or using the Site or Interface, you represent and warrant to Kromatika.finance the following:
+                </p>
+                <ul>
+                    <li>
+                        2.1. If you are an individual person, then you are of legal age in the
+                        jurisdiction in which you reside, and you have the legal capacity to enter
+                        into these Terms and be bound by them;
+                    </li>
+                    <li>
+                        2.2. If you are an entity, then you must have the legal authority to accept 
+                        these Terms on that entity's behalf, in which case "you" (except as used in 
+                        this paragraph) will mean that entity;
+                    </li>
+                    <li>
+                        2.3. You are not a U.S. Person;
+                    </li>
+                    <li>
+                        2.4. You are not a resident, national, or agent of any country to which the 
+                        United States, the United Kingdom, or the European Union embargoes 
+                        goods or imposes similar sanctions (collectively, "Restricted Territories");
+                    </li>
+                    <li>
+                        2.5. You are not subject to economic or trade sanctions administered or 
+                        enforced by any governmental authority; or otherwise, you are not a 
+                        member of any sanctions list or equivalent maintained by the United 
+                        States government, the United Kingdom government, the European 
+                        Union, or the United Nations, including without limitation the U.S. Office of 
+                        Foreign Asset Control Specifically Designated Nationals and Blocked 
+                        Person List (collectively, "Sanctions Lists Persons");
+                    </li>
+                    <li>
+                        2.6. You do intend to transact with any Restricted Person or Sanctions List 
+                        Person;
+                    </li>
+                    <li>
+                        2.7. You do not, and will not, use VPN software or 
+                        any other privacy or anonymization tools or techniques, 
+                        or other means, to circumvent, or attempt to circumvent, any restrictions that apply; and
+                    </li>
+                    <li>
+                        2.8. Your access is not (a) prohibited by and does not otherwise violate or 
+                        assist you in violating any domestic or foreign law, rule, statute, regulation, 
+                        by-law, order, protocol, code, decree, letter, or another directive, 
+                        requirement, guidance, or guideline, published or in force that applies to or 
+                        is otherwise intended to govern or regulate any person, property, 
+                        transaction, activity, event or other matter, including any rule, letter, order, 
+                        judgment, directive or other requirements, guidance, or guideline issued 
+                        by any domestic or foreign federal, provincial or state, municipal, local or 
+                        other governmental, regulatory, judicial or administrative authority having 
+                        jurisdiction over Kromatika.finance or you as otherwise duly enacted, 
+                        enforceable by law, the common law or equity (collectively, "Applicable 
+                        Laws"); or (b) contribute to or facilitate any illegal activity.
+                    </li>
+                </ul>
 
                 <h2>We may update the Services and the Terms.</h2>
                 <p>
@@ -47,40 +102,35 @@ export default function Home() {
                 </p>
             </article>
             <article>
-                <h1>2.Services</h1>
                 <h2>Kromatika.Finance is provided as an informational resource.</h2>
-                <p>Kromatika.Finance provides resources about the fundamentals of the Kromatika Protocol, which is a
-                    fully
-                    decentralized, community governed protocol deployed on multiple blockchain networks and systems, and
-                    provides
-                    information about the wider Kromatika ecosystem, governance, community, and various interfaces and
-                    integrations to the Kromatika Protocol. All information provided in connection with your access and
-                    use
-                    of the Site and the Services is for informational purposes only. You should not take, or refrain
-                    from
-                    taking, any action based on any information contained on the Site or any other information that we
-                    make
-                    available at any time, including blog posts, data, articles, links to third-party content, discord
-                    content, news feeds, tutorials, tweets, and videos. Before you make any financial, legal, technical,
-                    or
-                    other decisions involving the Services, you should seek independent professional advice from a
-                    licensed
-                    and qualified individual in the area for which such advice would be appropriate. The Services
-                    provide,
-                    or third parties may provide, links to other sites, applications, or resources. You acknowledge and
-                    agree that we are not responsible for the availability of such external sites, applications or
-                    resources, and do not endorse and are not responsible or liable for any content, advertising,
-                    products,
-                    or other materials on or available from such sites or resources. You further acknowledge and agree
-                    that
-                    we will not be responsible or liable, directly or indirectly, for any damage or loss caused or
-                    alleged
-                    to be caused by or in connection with use of or reliance on any such content, goods, or services
-                    available on or through any such site or resource. Because the Site provides information about the
-                    Kromatika Protocol, these Terms also provide some information about the use of the Protocol. This
-                    information is
-                    not intended to be comprehensive or address all aspects of the Protocol. There is additional
-                    documentation on the Site about the functioning of the Protocol or its ecosystem or community.
+                <p>Kromatika.Finance provides resources about the fundamentals of the 
+                    Kromatika Protocol, which is a fully decentralized, community governed 
+                    protocol deployed on multiple blockchain networks and systems, and 
+                    provides information about the wider Kromatika ecosystem, governance, 
+                    community, and various interfaces and integrations to the Kromatika 
+                    Protocol. All information provided in connection with your access and use 
+                    of the Site and the Services is for informational purposes only. You should 
+                    not take, or refrain from taking, any action based on any information 
+                    contained on the Site or any other information that we make available at 
+                    any time, including blog posts, data, articles, links to third-party content, 
+                    discord content, news feeds, tutorials, tweets, and videos. Before you make 
+                    any financial, legal, technical, or other decisions involving the Services, you 
+                    should seek independent professional advice from a licensed and qualified 
+                    individual in the area for which such advice would be appropriate. The 
+                    Services provide, or third parties may provide, links to other sites, 
+                    applications, or resources. You acknowledge and agree that we are not 
+                    responsible for the availability of such external sites, applications or 
+                    resources, and do not endorse and are not responsible or liable for any 
+                    content, advertising, products, or other materials on or available from such 
+                    sites or resources. You further acknowledge and agree that we will not be 
+                    responsible or liable, directly or indirectly, for any damage or 
+                    loss caused or alleged to be caused by or in connection with use of or reliance on any 
+                    such content, goods, or services available on or through any such site or
+                    resource. Because the Site provides information about the Kromatika 
+                    Protocol, these Terms also provide some information about the use of the 
+                    Protocol. This information is not intended to be comprehensive or address 
+                    all aspects of the Protocol. There is additional documentation on the Site 
+                    about the functioning of the Protocol or its ecosystem or community.
                 </p>
 
                 <h2>We are software developers in the Kromatika Protocol ecosystem.</h2>
@@ -159,7 +209,7 @@ export default function Home() {
             </article>
             <article>
                 <h1>3.Assumption of Risk</h1>
-                <p>You assume the risks of engaging in transactions that rely on smart contracts and other experimental
+                <p>You assume the risks of engaging in transactions that rely on smart contracts and other experimental 
                     technology.
                 </p>
 
@@ -571,18 +621,8 @@ export default function Home() {
                     You and we agree that any Dispute that cannot be resolved through the procedures set forth above
                     will be
                     resolved through binding arbitration in accordance with the International Arbitration Rules of the
-                    International Centre for Dispute Resolution. The place of arbitration shall be the Marshall Islands.
-                    The
-                    language of the arbitration shall be English. The arbitrator(s) shall have experience adjudicating
-                    matters involving Internet technology, software applications, financial transactions and, ideally,
-                    blockchain technology. The arbitrator’s award of damages must be consistent with the terms of the
-                    “Limitation of Liability” subsection of these Terms as to the types and amounts of damages for which
-                    a
-                    party may be held liable. The prevailing party will be entitled to an award of their reasonable
-                    attorney’s fees and costs. Except as may be required by law, neither a party nor its representatives
-                    may
-                    disclose the existence, content, or results of any arbitration hereunder without the prior written
-                    consent of (all/both) parties.
+                    International Centre for Dispute Resolution. 
+                   
                 </p>
                 <p>
                     UNLESS YOU TIMELY PROVIDE US WITH AN ARBITRATION OPT-OUT NOTICE (AS DEFINED BELOW IN THE SUBSECTION

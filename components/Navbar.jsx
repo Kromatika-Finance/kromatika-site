@@ -17,6 +17,12 @@ const menuItems = [
 		to: 'https://blog.kromatika.finance/',
 		isExternal: true,
 	},
+	{
+		icon: '',
+		label: 'Docs',
+		to: 'https://docs.kromatika.finance/',
+		isExternal: true,
+	},
 ];
 
 const cta = [

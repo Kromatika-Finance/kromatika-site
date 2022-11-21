@@ -83,8 +83,9 @@ const Token = () => {
 						</p>
 						<p>
 							A buyback from the DAO treasury was performed at the end of Q1 2022, for a total value
-							of 2 million $KROM.
-						</p>	
+							of 2 million $KROM.</p>	
+						<p>
+						LP ownership token is burned, meaning $KROM is burned with every sell trade.</p>
 					</span>
 						</div>
 				</motion.div>

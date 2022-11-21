@@ -80,19 +80,26 @@ const CoreStrength = () => {
               />
             </figure>
             <p>
-              <strong>additional LP fees</strong> on every trade. Up to 5% of
-              your order size.
+              <strong>additional LP fees</strong> on your filled limit orders
+              (FELO). Up to 9% depending on volatility of trading pair.
+            </p>
+          </li>
+          <li>
+            <figure>
+              <Image
+                src={coinKromatika}
+                alt=""
+                layout="fixed"
+                width="32px"
+                height="32px"
+              />
+            </figure>
+            <p>
+              Combined, <strong>Kromatika’s dApp provides you more</strong>, if
+              not the best value for every trade you make !
             </p>
           </li>
         </ul>
-        <p>
-          Combined, <strong>Kromatika’s dApp provides you more </strong>, if not
-          the best value for every trade you make !
-        </p>
-        <p>
-          And if that isn’t enough, we took care of slippage, front running bots
-          and fees so you no longer have to.
-        </p>
       </div>
 
       <h3 className="subtitle">These are our core building blocks</h3>

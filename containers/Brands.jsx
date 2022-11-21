@@ -15,14 +15,16 @@ const {
 	dextlogo,
 	ethereum,
 	vulkania,
+	cmc
 } = brands;
 
 const seenOn = [
+	{ href: 'https://coinmarketcap.com/currencies/kromatika/', logo: cmc },
 	{ href: 'https://www.coingecko.com/en/coins/kromatika', logo: cg2 },
-	{
-		href: 'https://dex.guru/token/0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789-eth',
-		logo: dexguru,
-	},
+	// {
+	// 	href: 'https://dex.guru/token/0x3af33bef05c2dcb3c7288b77fe1c8d2aeba4d789-eth',
+	// 	logo: dexguru,
+	// },
 	{
 		href: 'https://www.dextools.io/app/ether/pair-explorer/0x6ae0cdc5d2b89a8dcb99ad6b3435b3e7f7290077',
 		logo: dextlogo,
