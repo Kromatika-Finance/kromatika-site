@@ -49,7 +49,7 @@ const Navbar = () => {
 								<li className='navbar__item' key={i}>
 									<Link href={to}>
 										<a
-											href='https://blog.kromatika.finance/'
+											href={to}
 											target='_blank'
 											rel='noopener noreferrer'>
 											{icon}
