@@ -44,7 +44,7 @@ const quarters = [
 				goal: 'Liquidity farming rewards for Krom liquidity providers on Uniswap on all networks.',
 			},
 			{
-				status: false,
+				status: true,
 				goal: 'Adding gasless market swap feature to Kromatika protocol.',
 			},
 			{
@@ -77,7 +77,7 @@ const quarters = [
 				goal: 'Liquidity mining program for KROM/OP.',
 			},
 			{
-				status: false,
+				status: true,
 				goal: 'Launch perpetual trading.',
 			},
 			{
