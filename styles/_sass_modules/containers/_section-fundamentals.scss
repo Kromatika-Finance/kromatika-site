@@ -153,27 +153,35 @@
 }
 
 
-#buidlplan-paragraph { 
-  color: white;
-  margin-bottom: 200px;
-  display: block;
-  justify-content: center;
+.buidl-plan {
+  font-family: "Montserrat", sans-serif;
   font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 27px;
+  margin-bottom: 250px;
+  text-align: justify;
+  color: #ffffff;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
 
+  a {
+    text-decoration: underline;
+    color: #8235e5;
+  }
 
   @media only screen and (max-width: 750px) {
-    margin-bottom: 300px;
+    margin-bottom: 250px;
   }
 
   @media only screen and (max-width: 370px) {
-    margin-bottom: 350px;
+    margin-bottom: 300px;
   }
 
   @media only screen and (max-width: 340px) {
-    margin-bottom:  400px;
+    margin-bottom:  350px;
   }
 
   @media only screen and (max-width: 315px) {
-    margin-bottom: 450px;
+    margin-bottom: 400px;
   }
 }

@@ -107,9 +107,14 @@ const BUIDLPlan = () => {
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 1 }}>
-				<h2 className='section-title' id='section-buidlplan'>BUIDL Plan</h2>
-				<p id='buidlplan-paragraph'> Kromatika DAO tasks are visible on Dework - the ultimate Web3 project management tool. All tasks can be undertaken by any web3 contributor, and incentivized in $KROM. You can find the Dework dashboard <a href='https://app.dework.xyz/kromatika-dao' style={{color: '#ADD8E6'}}> here</a></p> 
+				<h2 className='section-title'>BUIDL Plan</h2>
 			</motion.div>
+			<p className={'buidl-plan'}>
+				Kromatika DAO tasks are visible on Dework - the ultimate Web3 project management tool.
+				All tasks can be undertaken by any web3 contributor, and incentivized in $KROM.
+				You can find the Dework dashboard
+				<a href='https://app.dework.xyz/kromatika-dao'> <strong>here</strong>.</a>
+			</p>
 			<div className='roadmap container'>
 				{quarters.map((quarter, i) => (
 					<Fragment key={i}>
