@@ -112,8 +112,7 @@ const BUIDLPlan = () => {
 			<p className={'buidl-plan'}>
 				Kromatika DAO tasks are visible on Dework - the ultimate Web3 project management tool.
 				All tasks can be undertaken by any web3 contributor, and incentivized in $KROM.
-				You can find the Dework dashboard
-				<a href='https://app.dework.xyz/kromatika-dao'> <strong>here</strong>.</a>
+				You can find the Dework dashboard <a href='https://app.dework.xyz/kromatika-dao'> <strong>here</strong>.</a>
 			</p>
 			<div className='roadmap container'>
 				{quarters.map((quarter, i) => (
