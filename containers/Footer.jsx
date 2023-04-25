@@ -3,6 +3,7 @@ import { Link as Scroll } from "react-scroll";
 import { Socials } from "../components";
 import { Divider, Logo } from "../components/";
 import { motion } from "framer-motion";
+import AlchemyLogo from "../components/AlchemyLogo";
 
 const menuItems = [
   { icon: "", label: "Token", to: "section-token", isExternal: false },
@@ -29,6 +30,8 @@ const secondaryLinks = [
     to: "terms-of-use",
   },
 ];
+
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -88,6 +91,8 @@ const Footer = () => {
           </nav>
         </div>
         <Divider type="horizontal" w="188px" />
+        <AlchemyLogo/>
+
         <div className="copyright">
           <h3>Copyright &copy; {currentYear} All rights reserved.</h3>
           <a href="mailto: contact@kromatika.finance">
@@ -141,6 +146,8 @@ const Footer = () => {
         <Logo path="/" />
         <Socials />
         <Divider type="horizontal" w="188px" />
+        <AlchemyLogo/>
+
         <div className="copyright">
           <h3>Copyright &copy; {currentYear} All rights reserved.</h3>
           <p>
