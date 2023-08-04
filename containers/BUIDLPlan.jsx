@@ -69,7 +69,7 @@ const quarters = [
 				goal: 'Kromatika DAO governance launch',
 			},
 			{
-				status: false,
+				status: true,
 				goal: 'Create KROM/OP liquidity pool.',
 			},
 			{
