@@ -6,8 +6,7 @@ const Hero = () => {
     <section id="section-hero" className="hero">
       <h1 className="hero__title">Kromatika DEX</h1>
       <p className="hero__subtitle">
-        Makes DEX trading simple, accessible, and affordable on Ethereum L1 and
-        L2’s.
+        Innovative MetaDEX Aggregator with Fees Earning Limit Orders, Gasless Swap & Perpetuals.
       </p>
       <div className="btn-group">
         <Link passHref={true} href="https://app.kromatika.finance/#/pool">
