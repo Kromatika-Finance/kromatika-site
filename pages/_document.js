@@ -25,7 +25,9 @@ class CustomDocument extends Document {
 						rel='stylesheet'
 						href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'
 					/>
+					<script src="https://tag.safary.club/stag.js?id=prd_x3eki1CNYv" />
 				</Head>
+
 				<body>
 					<Main />
 					<NextScript />
