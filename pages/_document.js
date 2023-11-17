@@ -1,4 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
+import Script from 'next/script'
 
 class CustomDocument extends Document {
 	static async getInitialProps(ctx) {
@@ -25,7 +26,12 @@ class CustomDocument extends Document {
 						rel='stylesheet'
 						href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'
 					/>
+					<script
+						src="https://tag.safary.club/stag.js?id=prd_USXGlOPn6D"
+						strategy="beforeInteractive"
+					/>
 				</Head>
+
 				<body>
 					<Main />
 					<NextScript />
