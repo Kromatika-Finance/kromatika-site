@@ -8,73 +8,94 @@ const quarters = [
 		goals: [
 			{
 				status: true,
-				goal: 'Launching the Kromatika protocol on Ethereum Mainnet (audit completion).',
+				goal: 'CEX listing.',
+			},
+			
+			{
+				status: true,
+				goal: 'Launch perpetual trading.',
+			},
+	
+			{
+				status: true,
+				goal: 'Enabling Gasless market swap feature.',
 			},
 			{
 				status: true,
 				goal: 'Enabling Gasless limit trading feature.',
 			},
+			
 			{
-				status: true,
-				goal: 'Liquidity farming rewards for KROM liquidity providers on Celer bridge.',
+				status: false,
+				goal: 'Certik audit release.',
 			},
 			{
-				status: true,
-				goal: 'Launching the KROM token on Uniswap Polygon.',
+				status: false,
+				goal: 'Increase engineering guild.',
 			},
 			{
-				status: true,
-				goal: 'Launching the Kromatika protocol on Arbitrum Layer2 network.',
+				status: false,
+				goal: 'Gasless swaps on Optimism & Mainnet.',
 			},
-			{
-				status: true,
-				goal: 'Launching new kromatika.finance website.',
-			},
+			
+			
 		],
 	},
 	{
 		title: '',
 		goals: [
+			
 			{
 				status: true,
-				goal: 'Launching the Kromatika protocol on the Polygon network.',
+				goal: 'Launching the Kromatika protocol on Polygon network.',
+			},
+			{
+				status: true,
+				goal: 'Launching the Kromatika protocol on Arbitrum network.',
 			},
 			{
 				status: false,
-				goal: 'Liquidity farming rewards for Krom liquidity providers on Uniswap on all networks.',
+				goal: 'Fiat on/off ramp.',
 			},
+			
 			{
-				status: true,
-				goal: 'Adding gasless market swap feature to Kromatika protocol.',
+				status: false,
+				goal: 'UI redesign.',
 			},
+			
+			
 			{
-				status: true,
-				goal: 'CEX listing.',
+				status: false,
+				goal: 'Introduce FELOBox.',
 			},
 			{
 				status: false,
-				goal: 'Launching KROM-E.',
+				goal: 'Free gasless swaps on Optimism.',
 			},
 			{
-				status: true,
-				goal: 'Kromatika v2 (new features, modern UI, hybrid DEX).',
+				status: false,
+				goal: 'Free gasless swaps on Arbitrum.',
 			},
+			
 		],
 	},
 	{
 		title: '',
-		goals: [
-			{
-				status: true,
-				goal: 'Kromatika DAO governance launch',
-			},
-			{
-				status: true,
-				goal: 'Create KROM/OP liquidity pool.',
+		goals: [{
+				status: false,
+				goal: 'Integrate more aggregators to the MetaDex aggregator.',
 			},
 			{
 				status: false,
-				goal: 'Liquidity mining program for KROM/OP.',
+				goal: 'Private transactions.',
+			},{
+				status: false,
+				goal: 'Deploy Kromatika on Base.',
+			},
+			
+			{
+				status: false,
+				goal: 'Referral Feature.',
 			},
 			{
 				status: true,
@@ -82,16 +103,9 @@ const quarters = [
 			},
 			{
 				status: false,
-				goal: 'Launch referral program on Optimism.',
+				goal: 'All-in-One FELO.',
 			},
-			{
-				status: false,
-				goal: 'Gas refund program on Optimism.',
-			},
-			{
-				status: false,
-				goal: 'Implement fiat on-ramp service.',
-			},
+			
 			{
 				status: false,
 				goal: 'Implement cross-chain bridge solution.',
