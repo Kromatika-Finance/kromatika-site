@@ -8,7 +8,7 @@ const quarters = [
 		goals: [
 			{
 				status: true,
-				goal: 'Launching the Kromatika protocol on Ethereum Mainnet (audit completion).',
+				goal: 'Launching the Kromatika protocol on Ethereum Mainnet, Arbitrum, Optimism, Polygon.',
 			},
 			{
 				status: true,
@@ -16,48 +16,27 @@ const quarters = [
 			},
 			{
 				status: true,
-				goal: 'Liquidity farming rewards for KROM liquidity providers on Celer bridge.',
-			},
-			{
-				status: true,
-				goal: 'Launching the KROM token on Uniswap Polygon.',
-			},
-			{
-				status: true,
-				goal: 'Launching the Kromatika protocol on Arbitrum Layer2 network.',
-			},
-			{
-				status: true,
-				goal: 'Launching new kromatika.finance website.',
-			},
-		],
-	},
-	{
-		title: '',
-		goals: [
-			{
-				status: true,
-				goal: 'Launching the Kromatika protocol on the Polygon network.',
-			},
-			{
-				status: false,
-				goal: 'Liquidity farming rewards for Krom liquidity providers on Uniswap on all networks.',
-			},
-			{
-				status: true,
-				goal: 'Adding gasless market swap feature to Kromatika protocol.',
+				goal: 'Kromatika DAO governance launch',
 			},
 			{
 				status: true,
 				goal: 'CEX listing.',
 			},
 			{
-				status: false,
-				goal: 'Launching KROM-E.',
+				status: true,
+				goal: 'Launch perpetual trading.',
 			},
 			{
 				status: true,
-				goal: 'Kromatika v2 (new features, modern UI, hybrid DEX).',
+				goal: 'Launch free gasless swaps on Polygon.',
+			},
+			{
+				status: false,
+				goal: 'Deploy Kromatika v3 - improved UI and new features.',
+			},
+			{
+				status: false,
+				goal: 'Launch Free Gasless Swaps on Arbitrum.',
 			},
 		],
 	},
@@ -66,19 +45,19 @@ const quarters = [
 		goals: [
 			{
 				status: true,
-				goal: 'Kromatika DAO governance launch',
+				goal: 'Kromatika v2 (new features, modern UI, hybrid DEX).',
 			},
 			{
 				status: true,
 				goal: 'Create KROM/OP liquidity pool.',
 			},
 			{
-				status: false,
+				status: true,
 				goal: 'Liquidity mining program for KROM/OP.',
 			},
 			{
 				status: true,
-				goal: 'Launch perpetual trading.',
+				goal: 'Adding gasless market swap feature to Kromatika protocol.',
 			},
 			{
 				status: false,
@@ -90,12 +69,57 @@ const quarters = [
 			},
 			{
 				status: false,
+				goal: 'Scale number of Kromatika`s active contributors.',
+			},
+			{
+				status: false,
+				goal: 'Integrate Uniswap v4.',
+			},
+			{
+				status: false,
+				goal: 'Deploy FELO v2.',
+			},
+		],
+	},	
+	{
+		title: '',
+		goals: [
+			{
+				status: false,
 				goal: 'Implement fiat on-ramp service.',
 			},
 			{
 				status: false,
-				goal: 'Implement cross-chain bridge solution.',
+				goal: 'Implement cross-chain bridge aggregation solution.',
 			},
+			{
+				status: true,
+				goal: 'Certik gasless and MetaSwap router audit.',
+			},
+			{
+				status: true,
+				goal: 'Deploy Kromatika to Base.',
+			},
+			{
+				status: false,
+				goal: 'Deploy gasless to Mainnet, Optimism and Base.',
+			},
+			{
+				status: false,
+				goal: 'Integrate more swap aggregators.',
+			},
+			{
+				status: false,
+				goal: 'Integrate cross-chain swap aggregation solution.',
+			},
+			{
+				status: false,
+				goal: 'Deploy FELO to BASE.',
+			},
+			{
+				status: false,
+				goal: 'Deploy $KROM to BASE.',
+			}
 		],
 	},
 ];
