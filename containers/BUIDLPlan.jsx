@@ -31,12 +31,12 @@ const quarters = [
 				goal: 'Launch free gasless swaps on Polygon.',
 			},
 			{
-				status: false,
-				goal: 'Deploy Kromatika v3 - improved UI and new features.',
+				status: true,
+				goal: 'Launch Free Gasless Swaps on Arbitrum.',
 			},
 			{
 				status: false,
-				goal: 'Launch Free Gasless Swaps on Arbitrum.',
+				goal: 'Deploy Kromatika v3 - improved UI and new features.',
 			},
 		],
 	},
@@ -60,6 +60,10 @@ const quarters = [
 				goal: 'Adding gasless market swap feature to Kromatika protocol.',
 			},
 			{
+				status: true,
+				goal: 'Deploy FELO v2.',
+			},
+			{
 				status: false,
 				goal: 'Launch referral program on Optimism.',
 			},
@@ -75,10 +79,7 @@ const quarters = [
 				status: false,
 				goal: 'Integrate Uniswap v4.',
 			},
-			{
-				status: false,
-				goal: 'Deploy FELO v2.',
-			},
+
 		],
 	},	
 	{
@@ -113,11 +114,11 @@ const quarters = [
 				goal: 'Integrate cross-chain swap aggregation solution.',
 			},
 			{
-				status: false,
+				status: true,
 				goal: 'Deploy FELO to BASE.',
 			},
 			{
-				status: false,
+				status: true,
 				goal: 'Deploy $KROM to BASE.',
 			}
 		],
