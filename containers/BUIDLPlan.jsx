@@ -38,6 +38,10 @@ const quarters = [
 				status: false,
 				goal: 'Launch Free Gasless Swaps on Arbitrum.',
 			},
+			{
+				status: false,
+				goal: 'Make FELO uniV4 compliant.',
+			},
 		],
 	},
 	{
@@ -69,11 +73,11 @@ const quarters = [
 			},
 			{
 				status: false,
-				goal: 'Scale number of Kromatika`s active contributors.',
+				goal: 'Increase number of Kromatika`s active contributors.',
 			},
 			{
 				status: false,
-				goal: 'Integrate Uniswap v4.',
+				goal: 'Adopt Uniswap v4.',
 			},
 			{
 				status: false,
@@ -113,13 +117,21 @@ const quarters = [
 				goal: 'Integrate cross-chain swap aggregation solution.',
 			},
 			{
-				status: false,
+				status: true,
 				goal: 'Deploy FELO to BASE.',
 			},
 			{
-				status: false,
+				status: true,
 				goal: 'Deploy $KROM to BASE.',
-			}
+			},
+			{
+				status: false,
+				goal: 'AI ?',
+			},
+			{
+				status: false,
+				goal: 'Build new perpetual trading platform.',
+			},
 		],
 	},
 ];

@@ -20,9 +20,9 @@ export default function Home() {
 			<Blur>
 				<Hero />
 				<Qualities />
-				<Token />
 				<BUIDLPlan />
 				<HowItWorks />
+				<Token />
 				<FAQ />
 				<Brands />
 			</Blur>
