@@ -86,3 +86,16 @@ header .btn-group {
   text-decoration: none;
   opacity: 0.5;
 }
+
+.roadmap-section {
+  /* Add extra top margin/padding on mobile */
+  @media (max-width: 768px) {
+    margin-top: 3rem;
+    padding-top: 4rem;
+  }
+  
+  @media (max-width: 480px) {
+    margin-top: 4rem;
+    padding-top: 5rem;
+  }
+}
