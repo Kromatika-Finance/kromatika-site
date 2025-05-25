@@ -75,7 +75,7 @@ const Navbar = () => {
 					</ul>
 				</nav>
 			</div>
-			<div className='btn-group'>
+			<div className="btn-group hidden sm:flex lg:hidden">
 				{cta.map(({ label, to, className }, i) => (
 					<Link href={to} passHref={true} key={i}>
 						<motion.a
