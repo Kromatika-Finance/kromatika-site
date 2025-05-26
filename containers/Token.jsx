@@ -16,20 +16,127 @@ const {
 } = images;
 
 const Token = () => {
+	// Cards data for token information
+	const tokenCards = [
+		{
+			image: circulatingSupply,
+			title: "Circulating Supply",
+			content: (
+				<>
+					<p>
+						Initially 60 million tokens were fair lauched on
+						Uniswap V3 mainnet. 10 million were fair launched on Arbitrum and
+						another 10 million on Optimism.
+					</p>
+					<p>
+						A buyback from the DAO treasury was performed at the end of Q1 2022, for a total value
+						of 2 million $KROM.
+					</p>	
+					<p>
+						LP ownership token is burned, meaning $KROM is burned with every sell trade.
+					</p>
+				</>
+			)
+		},
+		{
+			image: coinsStash,
+			title: "Vesting",
+			content: (
+				<p>
+					12.000.000 $KROM have been locked on Unicrypt, or 12% of the
+					total supply, with an average vesting of 2 years and 3 months.
+					This vesting occurred in March 2022.
+					Half of the vested tokens are allocated to the DAO treasury.
+				</p>
+			)
+		},
+		{
+			image: goldLock,
+			title: "Increased security",
+			content: (
+				<>
+					<p>
+						The proof of liquidity (position) was burnt, for better security
+						and in order to prevent rug pull hacks. You can consult the
+						transaction &nbsp;
+						<Link href='https://etherscan.io/tx/0x26c782eb49c42979c259dda936f28b77ae8dbeef16da3ec341d06cb437034ac4'>
+							<a target='_blank' rel='noopener noreferrer'>
+								here.
+							</a>
+						</Link>
+					</p>
+					<p>
+						7 million $KROM tokens are kept in the DAO treasury, managed by the Kromatika DAO.
+					</p>
+				</>
+			)
+		}
+	];
+
+	// Network guides data
+	const networkGuides = [
+		{
+			logo: metamaskLogo,
+			text: "How to buy $KROM using the Ethereum mainnet (via ",
+			linkText: "Mainnet Ethereum",
+			href: "https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FXHJSQgGUDFPHD7VBeXho%2FKrom_guide_-_Mainnet.pdf?alt=media&token=23e4fb30-b570-46ff-b242-97f67506a50b",
+			suffix: ")?"
+		},
+		{
+			logo: optimismLogo,
+			text: "How to add ",
+			linkText: "Optimism",
+			href: "https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FM25inSyXdPgxhiccP2H7%2FKrom_guide_-_Optimism.pdf?alt=media&token=d871ef22-7715-4f5d-94e0-098b08651feb",
+			suffix: " to & buy $KROM using metamask?"
+		},
+		{
+			logo: arbitrumLogo,
+			text: "How to add ",
+			linkText: "Arbitrum",
+			href: "https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FfVZC2Pa4XlW9k3Doh1GJ%2FKrom_guide_-_Arbitrum.pdf?alt=media&token=3ab51ac2-0348-4c47-87e6-2298d7ee0249",
+			suffix: " to & buy $KROM using metamask?"
+		},
+		{
+			logo: polygonLogo,
+			text: "How to add ",
+			linkText: "Polygon",
+			href: "https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FueqXnDg62spA7tRp0Yau%2FKrom_guide_-_Polygon.pdf?alt=media&token=1e538bcb-0ecb-48b0-8b1d-b45e23d12e20",
+			suffix: " to & buy $KROM using metamask? (guide coming soon)"
+		}
+	];
+
+	// Animation variants for reusability
+	const fadeInVariants = {
+		initial: { opacity: 0 },
+		whileInView: { opacity: 1 },
+		transition: { duration: 1 }
+	};
+
+	const slideInVariants = {
+		initial: { x: -100 },
+		whileInView: { x: 0 },
+		transition: { duration: 1 }
+	};
+
+	const complexAnimationVariants = {
+		initial: { x: -300 },
+		whileInView: {
+			x: 0,
+			scale: [1, 2, 2, 1, 1],
+			rotate: [0, 0, 150, 200, 0],
+			borderRadius: ['20%', '20%', '50%', '50%', '20%'],
+		},
+		transition: { duration: 1 }
+	};
+
 	return (
 		<section id='section-token' className='section-padding'>
-			<motion.div
-				initial={{ opacity: 0 }}
-				whileInView={{ opacity: 1 }}
-				transition={{ duration: 1 }}>
+			<motion.div {...fadeInVariants}>
 				<h2 className='section-title'>Protocol Token</h2>
 			</motion.div>
+
 			<div className='token'>
-				<motion.div
-					initial={{ x: -100 }}
-					whileInView={{ x: 0 }}
-					transition={{ duration: 1 }}
-					className='motion-div'>
+				<motion.div {...slideInVariants} className='motion-div'>
 					<figure className='token__figure'>
 						<Image src={coinsKromatika} alt='Coins' className='token__img' />
 					</figure>
@@ -62,94 +169,27 @@ const Token = () => {
 					</p>
 				</div>
 			</div>
+
 			{/* CARDS UNDER TOKEN SECTION */}
 			<div className='cards-wrapper'>
-
-				<motion.div
-					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }}
-					transition={{ duration: 1 }}
-					className='card'>
+				{tokenCards.map((card, index) => (
+					<motion.div key={index} {...fadeInVariants} className='card'>
 						<figure>
-							<Image src={circulatingSupply} alt='' />
+							<Image src={card.image} alt='' />
 						</figure>
 						<div className='card__overlay'>
-							<span className='card__title'>Circulating Supply</span>
+							<span className='card__title'>{card.title}</span>
 							<span className='card__content'>
-						<p>
-							Initially 60 million tokens were fair lauched on
-							Uniswap V3 mainnet. 10 million were fair launched on Arbitrum and
-							another 10 million on Optimism.
-						</p>
-						<p>
-							A buyback from the DAO treasury was performed at the end of Q1 2022, for a total value
-							of 2 million $KROM.</p>	
-						<p>
-						LP ownership token is burned, meaning $KROM is burned with every sell trade.</p>
-					</span>
-						</div>
-				</motion.div>
-
-				<motion.div 
-					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }} 
-					transition={{ duration: 1 }} 
-					className='card'>
-						<figure>
-							<Image src={coinsStash} alt='' />
-						</figure>
-						<div className='card__overlay'>
-							<span className='card__title'>Vesting</span>
-							<span className='card__content'>
-						<p>
-							12.000.000 $KROM have been locked on Unicrypt, or 12% of the
-							total supply, with an average vesting of 2 years and 3 months.
-							This vesting occurred in March 2022.
-							Half of the vested tokens are allocated to the DAO treasury.
-						</p>
-					</span>
+								{card.content}
+							</span>
 						</div>
 					</motion.div>
-					<motion.div
-						initial={{ opacity: 0 }}
-						whileInView={{ opacity: 1 }}
-						transition={{ duration: 1 }} 
-						className='card'>
-						<figure>
-							<Image src={goldLock} alt='' />
-						</figure>
-						<div className='card__overlay'>
-							<span className='card__title'>Increased security</span>
-							<span className='card__content'>
-						<p>
-							The proof of liquidity (position) was burnt, for better security
-							and in order to prevent rug pull hacks. You can consult the
-							transaction &nbsp;
-							<Link href='https://etherscan.io/tx/0x26c782eb49c42979c259dda936f28b77ae8dbeef16da3ec341d06cb437034ac4'>
-								<a target='_blank' rel='noopener noreferrer'>
-									here.
-								</a>
-							</Link>
-						</p>
-						<p>
-							7 million $KROM tokens are kept in the DAO treasury, managed by the Kromatika DAO.
-						</p>
-					</span>
-						</div>
-					</motion.div>
+				))}
 			</div>
+
 			{/* HOW TO BUY UNDER TOKEN SECTION */}
 			<div className='token'>
-				<motion.div
-					initial={{ x: -300 }}
-					whileInView={{
-						x: 0,
-						scale: [1, 2, 2, 1, 1],
-						rotate: [0, 0, 150, 200, 0],
-						borderRadius: ['20%', '20%', '50%', '50%', '20%'],
-					}}
-					transition={{ duration: 1 }}
-					className='motion-div'>
+				<motion.div {...complexAnimationVariants} className='motion-div'>
 					<figure className='token__figure'>
 						<Image src={coinKromatika} alt='Coins' className='token__img' />
 					</figure>
@@ -172,86 +212,28 @@ const Token = () => {
 						You can consult more detailed instructions using the below links:
 					</p>
 					<ul>
-						<li>
-							<figure>
-								<Image
-									src={metamaskLogo}
-									alt=''
-									layout='fixed'
-									width='28px'
-									height='28px'
-								/>
-							</figure>
-							<p>
-								How to buy $KROM using the Ethereum mainnet (via &nbsp;
-								<Link href='https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FXHJSQgGUDFPHD7VBeXho%2FKrom_guide_-_Mainnet.pdf?alt=media&token=23e4fb30-b570-46ff-b242-97f67506a50b'>
-									<a target='_blank' rel='noopener noreferrer'>
-										Mainnet Ethereum
-									</a>
-								</Link>
-								)?
-							</p>
-						</li>
-						<li>
-							<figure>
-								<Image
-									src={optimismLogo}
-									alt=''
-									layout='fixed'
-									width='28px'
-									height='28px'
-								/>
-							</figure>
-							<p>
-								How to add &nbsp;
-								<Link href='https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FM25inSyXdPgxhiccP2H7%2FKrom_guide_-_Optimism.pdf?alt=media&token=d871ef22-7715-4f5d-94e0-098b08651feb'>
-									<a target='_blank' rel='noopener noreferrer'>
-										Optimism
-									</a>
-								</Link>
-								&nbsp; to & buy $KROM using metamask?
-							</p>
-						</li>
-						<li>
-							<figure>
-								<Image
-									src={arbitrumLogo}
-									alt=''
-									layout='fixed'
-									width='28px'
-									height='28px'
-								/>
-							</figure>
-							<p>
-								How to add &nbsp;
-								<Link href='https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FfVZC2Pa4XlW9k3Doh1GJ%2FKrom_guide_-_Arbitrum.pdf?alt=media&token=3ab51ac2-0348-4c47-87e6-2298d7ee0249'>
-									<a target='_blank' rel='noopener noreferrer'>
-										Arbitrum
-									</a>
-								</Link>
-								&nbsp; to & buy $KROM using metamask?
-							</p>
-						</li>
-						<li>
-							<figure>
-								<Image
-									src={polygonLogo}
-									alt=''
-									layout='fixed'
-									width='28px'
-									height='28px'
-								/>
-							</figure>
-							<p>
-								How to add &nbsp;
-								<Link href='https://1474401179-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FoxScRKy1rYzwfDKYX6RP%2Fuploads%2FueqXnDg62spA7tRp0Yau%2FKrom_guide_-_Polygon.pdf?alt=media&token=1e538bcb-0ecb-48b0-8b1d-b45e23d12e20'>
-									<a target='_blank' rel='noopener noreferrer'>
-										Polygon
-									</a>
-								</Link>
-								&nbsp; to & buy $KROM using metamask? (guide coming soon)
-							</p>
-						</li>
+						{networkGuides.map((guide, index) => (
+							<li key={index}>
+								<figure>
+									<Image
+										src={guide.logo}
+										alt=''
+										layout='fixed'
+										width='28px'
+										height='28px'
+									/>
+								</figure>
+								<p>
+									{guide.text}
+									<Link href={guide.href}>
+										<a target='_blank' rel='noopener noreferrer'>
+											{guide.linkText}
+										</a>
+									</Link>
+									{guide.suffix}
+								</p>
+							</li>
+						))}
 					</ul>
 					<Link
 						passHref={true}
